@@ -35,8 +35,8 @@ function Home() {
           </span>
           <h1 className="mt-6 text-5xl md:text-7xl font-black tracking-tight leading-[1.05]">
             24/7 Emergency<br />
-            <span className="bg-gradient-to-r from-primary to-yellow-200 bg-clip-text text-transparent">Roadside Assistance</span><br />
-            & Towing & Recovery
+            <span className="bg-gradient-to-r from-primary to-yellow-200 bg-clip-text text-transparent">Car Recovery</span><br />
+            & Towing
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
             Stuck on the road? Fast Recovery Pro is the UAE's go-to team for fast, professional roadside help — anywhere, anytime.
