@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta({
       title: "Fast Recovery Pro — 24/7 Roadside Assistance Ireland",
-      description: "Ireland's trusted 24/7 vehicle recovery, jump start, battery replacement, mobile tyre service and secure storage. Fast response, fair prices.",
+      description: "Ireland's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
       path: "/",
       image: IMG.tow4,
     }),
@@ -75,7 +75,7 @@ function Home() {
           <Link to="/services" className="text-sm font-semibold text-primary hover:underline">View all services →</Link>
         </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {SERVICES.map((s) => (
+          {SERVICES.slice(0, 6).map((s) => (
             <ServiceCard key={s.slug} to={s.slug} image={s.image} title={s.title} desc={s.desc} />
           ))}
         </div>

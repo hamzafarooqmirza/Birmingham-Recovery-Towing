@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP, EMAIL, ADDRESS, BRAND } from "@/lib/assets";
+import { SERVICES } from "@/lib/services";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export function Footer() {
@@ -13,11 +14,10 @@ export function Footer() {
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">Services</h3>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-            <li><Link to="/vehicle-recovery" className="hover:text-primary">Towing & Recovery</Link></li>
-            <li><Link to="/jump-start" className="hover:text-primary">Jump Start</Link></li>
-            <li><Link to="/battery-replacement" className="hover:text-primary">Battery Replacement</Link></li>
-            <li><Link to="/mobile-tyre-service" className="hover:text-primary">Mobile Tyre Service</Link></li>
-            <li><Link to="/vehicle-storage" className="hover:text-primary">Vehicle Storage</Link></li>
+            {SERVICES.slice(0, 6).map((s) => (
+              <li key={s.slug}><Link to={s.slug} className="hover:text-primary">{s.title.split(" (")[0]}</Link></li>
+            ))}
+            <li><Link to="/services" className="font-semibold text-primary hover:underline">View all services →</Link></li>
           </ul>
         </div>
         <div>
