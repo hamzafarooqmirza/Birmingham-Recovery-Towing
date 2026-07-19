@@ -75,7 +75,7 @@ function Home() {
           <Link to="/services" className="text-sm font-semibold text-primary hover:underline">View all services →</Link>
         </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {SERVICES.slice(0, 6).map((s) => (
+          {SERVICES.map((s) => (
             <ServiceCard key={s.slug} to={s.slug} image={s.image} title={s.title} desc={s.desc} />
           ))}
         </div>
