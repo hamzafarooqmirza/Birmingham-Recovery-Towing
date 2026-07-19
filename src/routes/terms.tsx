@@ -15,7 +15,7 @@ export const Route = createFileRoute("/terms")({
 function TermsPage() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="Legal" title="Terms & Conditions" image={IMG.tow4} />
+      <PageHero eyebrow="Legal" title="Terms & Conditions" image={IMG.carTowing} />
       <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 text-muted-foreground space-y-4">
         <p>By booking or using our services, you agree to the following terms.</p>
         <h2 className="text-2xl font-bold text-foreground">Service</h2>

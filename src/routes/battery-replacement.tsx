@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/battery-replacement")({
   head: () => ({
-    meta: pageMeta({ title: "Mobile Battery Replacement Ireland | Fast Recovery Pro", description: "On-site car battery testing and replacement across Ireland. Quality batteries fitted at your home, workplace or roadside.", path: "/battery-replacement", image: IMG.battery }),
+    meta: pageMeta({ title: "Mobile Battery Replacement Ireland | Fast Recovery Pro", description: "On-site car battery testing and replacement across Ireland. Quality batteries fitted at your home, workplace or roadside.", path: "/battery-replacement", image: IMG.breakdownRecoveryAlt }),
     links: [{ rel: "canonical", href: "/battery-replacement" }],
   }),
   component: BatteryReplacement,
@@ -16,7 +16,7 @@ function BatteryReplacement() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Battery Replacement" hero={IMG.battery}
+        eyebrow="Service" title="Battery Replacement" hero={IMG.breakdownRecoveryAlt}
         description="If your battery is past saving, we replace it on the spot with a quality, warrantied unit suited to your vehicle. No tow needed."
         benefits={["On-site battery testing with professional equipment", "Quality replacement batteries fitted on the spot", "Emergency battery replacement, 24/7", "Old battery recycled responsibly", "Suitable for cars, vans, 4x4s and light commercials", "Manufacturer warranty included"]}
         why={[

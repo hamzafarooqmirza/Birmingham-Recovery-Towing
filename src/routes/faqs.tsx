@@ -17,7 +17,7 @@ const faqs = [
 
 export const Route = createFileRoute("/faqs")({
   head: () => ({
-    meta: pageMeta({ title: "FAQs — Fast Recovery Pro", description: "Answers to common questions about our 24/7 roadside assistance, recovery and storage services.", path: "/faqs", image: IMG.tow2 }),
+    meta: pageMeta({ title: "FAQs — Fast Recovery Pro", description: "Answers to common questions about our 24/7 roadside assistance, recovery and storage services.", path: "/faqs", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/faqs" }],
     scripts: [{ type: "application/ld+json", children: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }],
   }),
@@ -27,7 +27,7 @@ export const Route = createFileRoute("/faqs")({
 function FaqsPage() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="FAQs" title="Frequently Asked Questions" image={IMG.tow2} />
+      <PageHero eyebrow="FAQs" title="Frequently Asked Questions" image={IMG.roadsideAssistance} />
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-16"><FAQ items={faqs} /></section>
       <EmergencyCTA />
     </SiteLayout>

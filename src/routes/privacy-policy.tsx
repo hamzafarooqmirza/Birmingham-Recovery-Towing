@@ -15,7 +15,7 @@ export const Route = createFileRoute("/privacy-policy")({
 function PrivacyPage() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="Legal" title="Privacy Policy" image={IMG.tow3} />
+      <PageHero eyebrow="Legal" title="Privacy Policy" image={IMG.roadsideAssistance} />
       <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 text-muted-foreground space-y-4">
         <p>We respect your privacy. This policy explains what data we collect when you contact Fast Recovery Pro and how we use it.</p>
         <h2 className="text-2xl font-bold text-foreground">What we collect</h2>

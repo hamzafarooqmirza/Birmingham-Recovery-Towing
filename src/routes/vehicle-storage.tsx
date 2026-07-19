@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-storage")({
   head: () => ({
-    meta: pageMeta({ title: "Secure Vehicle Storage Ireland | Fast Recovery Pro", description: "Safe, secure short and long-term vehicle storage in Ireland. Ideal for classics, project cars, and seasonal storage.", path: "/vehicle-storage", image: IMG.storage }),
+    meta: pageMeta({ title: "Secure Vehicle Storage Ireland | Fast Recovery Pro", description: "Safe, secure short and long-term vehicle storage in Ireland. Ideal for classics, project cars, and seasonal storage.", path: "/vehicle-storage", image: IMG.carTowing }),
     links: [{ rel: "canonical", href: "/vehicle-storage" }],
   }),
   component: VehicleStorage,
@@ -16,7 +16,7 @@ function VehicleStorage() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Vehicle Storage" hero={IMG.storage}
+        eyebrow="Service" title="Vehicle Storage" hero={IMG.carTowing}
         description="Going away, restoring a classic or simply need somewhere safe to park your pride and joy? Our secure indoor storage units keep your vehicle protected."
         benefits={["Secure indoor storage units", "Short-term and long-term options", "Ideal for classics, project cars and seasonal storage", "Dry, ventilated, alarmed facility", "Collection and delivery service available", "Flexible weekly and monthly rates"]}
         why={[
