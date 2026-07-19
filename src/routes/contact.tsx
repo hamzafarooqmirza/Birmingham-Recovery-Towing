@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across Ireland.", path: "/contact", image: IMG.tow2 }),
+    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across Ireland.", path: "/contact", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/contact" }],
   }),
   component: ContactPage,
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="Contact" title="Get help, 24/7" subtitle="Pick up the phone or message us — we'll dispatch the closest truck immediately." image={IMG.tow2} />
+      <PageHero eyebrow="Contact" title="Get help, 24/7" subtitle="Pick up the phone or message us — we'll dispatch the closest truck immediately." image={IMG.roadsideAssistance} />
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16 grid gap-10 lg:grid-cols-2">
         <div>
           <div className="grid gap-4">

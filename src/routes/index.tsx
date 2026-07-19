@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       title: "Fast Recovery Pro — 24/7 Roadside Assistance Ireland",
       description: "Ireland's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
       path: "/",
-      image: IMG.tow4,
+      image: IMG.hero,
     }),
     links: [{ rel: "canonical", href: "/" }],
   }),
@@ -26,7 +26,7 @@ function Home() {
     <SiteLayout>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={IMG.tow4} alt="Fast Recovery Pro tow truck recovering a vehicle in Ireland" className="h-full w-full object-cover opacity-50" />
+          <img src={IMG.hero} alt="Fast Recovery Pro tow truck recovering a vehicle in Ireland" className="h-full w-full object-cover opacity-50" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-10 md:py-14">
@@ -142,7 +142,7 @@ function Home() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
         <h2 className="text-4xl md:text-5xl font-black text-center">Our Fleet in Action</h2>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
-          {[IMG.tow1, IMG.tow2, IMG.tow3, IMG.tow4, IMG.tow5, IMG.tyre].map((src, i) => (
+          {[IMG.hero, IMG.roadsideAssistance, IMG.carTowing, IMG.carAndTowingVan, IMG.breakdownRecoveryAlt, IMG.emergencyCarRecovery].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-2xl border border-border aspect-square">
               <img src={src} alt={`Fast Recovery Pro fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
             </div>

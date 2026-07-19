@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Towing & Recovery — 24/7 Tow Truck Ireland | Fast Recovery Pro", description: "Professional 24/7 vehicle recovery and tow truck service across Ireland. Fast response, fixed fair pricing, fully insured.", path: "/vehicle-recovery", image: IMG.tow4 }),
+    meta: pageMeta({ title: "Towing & Recovery — 24/7 Tow Truck Ireland | Fast Recovery Pro", description: "Professional 24/7 vehicle recovery and tow truck service across Ireland. Fast response, fixed fair pricing, fully insured.", path: "/vehicle-recovery", image: IMG.carTowing }),
     links: [{ rel: "canonical", href: "/vehicle-recovery" }],
   }),
   component: VehicleRecovery,
@@ -16,7 +16,7 @@ function VehicleRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Towing & Recovery" hero={IMG.tow4}
+        eyebrow="Service" title="Towing & Recovery" hero={IMG.carTowing}
         description="Whether you've broken down, been in an accident, or need a vehicle transported across the country, our tilt-and-slide tow trucks handle every job with care."
         benefits={["24/7 emergency vehicle recovery", "Tilt-and-slide flatbed trucks for safe loading", "Cars, vans, classics and prestige vehicles", "Accident recovery and insurance work", "Nationwide transport across Ireland", "Fully insured and fair fixed pricing"]}
         why={[
