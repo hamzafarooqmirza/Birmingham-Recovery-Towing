@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/mobile-tyre-service")({
   head: () => ({
-    meta: pageMeta({ title: "Mobile Tyre Service Ireland | T1T", description: "Flat tyre or blowout? Our fully-equipped mobile tyre van comes to you — replacements, repairs and wheel changes 24/7.", path: "/mobile-tyre-service", image: IMG.tyre }),
+    meta: pageMeta({ title: "Mobile Tyre Service Ireland | Fast Recovery Pro", description: "Flat tyre or blowout? Our fully-equipped mobile tyre van comes to you — replacements, repairs and wheel changes 24/7.", path: "/mobile-tyre-service", image: IMG.tyre }),
     links: [{ rel: "canonical", href: "/mobile-tyre-service" }],
   }),
   component: MobileTyre,

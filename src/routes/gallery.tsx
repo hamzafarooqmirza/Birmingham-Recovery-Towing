@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
-    meta: pageMeta({ title: "Gallery — T1T Towing & Recovery", description: "Photos of our recovery fleet, tow trucks, mobile tyre van and roadside assistance work across Ireland.", path: "/gallery", image: IMG.tow5 }),
+    meta: pageMeta({ title: "Gallery — Fast Recovery Pro", description: "Photos of our recovery fleet, tow trucks, mobile tyre van and roadside assistance work across Ireland.", path: "/gallery", image: IMG.tow5 }),
     links: [{ rel: "canonical", href: "/gallery" }],
   }),
   component: GalleryPage,
@@ -21,7 +21,7 @@ function GalleryPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((src, i) => (
             <div key={i} className="group overflow-hidden rounded-3xl border border-border shadow-xl aspect-[4/3]">
-              <img src={src} alt={`T1T Towing & Recovery work photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+              <img src={src} alt={`Fast Recovery Pro work photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
             </div>
           ))}
         </div>

@@ -8,7 +8,7 @@ import { MapPin } from "lucide-react";
 
 export const Route = createFileRoute("/service-areas")({
   head: () => ({
-    meta: pageMeta({ title: "Service Areas — T1T Towing & Recovery", description: "We cover Dublin, Kildare, Meath, Wicklow and the wider Leinster area, with nationwide recovery available 24/7.", path: "/service-areas", image: IMG.tow1 }),
+    meta: pageMeta({ title: "Service Areas — Fast Recovery Pro", description: "We cover Dublin, Kildare, Meath, Wicklow and the wider Leinster area, with nationwide recovery available 24/7.", path: "/service-areas", image: IMG.tow1 }),
     links: [{ rel: "canonical", href: "/service-areas" }],
   }),
   component: AreasPage,

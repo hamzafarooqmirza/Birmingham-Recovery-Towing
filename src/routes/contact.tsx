@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: pageMeta({ title: "Contact Us — T1T Towing & Recovery", description: "Call, WhatsApp or message T1T Towing & Recovery 24/7 for emergency roadside assistance across Ireland.", path: "/contact", image: IMG.tow2 }),
+    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across Ireland.", path: "/contact", image: IMG.tow2 }),
     links: [{ rel: "canonical", href: "/contact" }],
   }),
   component: ContactPage,

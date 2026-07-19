@@ -17,7 +17,7 @@ const faqs = [
 
 export const Route = createFileRoute("/faqs")({
   head: () => ({
-    meta: pageMeta({ title: "FAQs — T1T Towing & Recovery", description: "Answers to common questions about our 24/7 roadside assistance, recovery and storage services.", path: "/faqs", image: IMG.tow2 }),
+    meta: pageMeta({ title: "FAQs — Fast Recovery Pro", description: "Answers to common questions about our 24/7 roadside assistance, recovery and storage services.", path: "/faqs", image: IMG.tow2 }),
     links: [{ rel: "canonical", href: "/faqs" }],
     scripts: [{ type: "application/ld+json", children: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }],
   }),

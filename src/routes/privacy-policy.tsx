@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/privacy-policy")({
   head: () => ({
-    meta: pageMeta({ title: "Privacy Policy — T1T Towing & Recovery", description: "How T1T Towing & Recovery collects, uses and protects your personal information.", path: "/privacy-policy" }),
+    meta: pageMeta({ title: "Privacy Policy — Fast Recovery Pro", description: "How Fast Recovery Pro collects, uses and protects your personal information.", path: "/privacy-policy" }),
     links: [{ rel: "canonical", href: "/privacy-policy" }],
   }),
   component: PrivacyPage,
@@ -17,7 +17,7 @@ function PrivacyPage() {
     <SiteLayout>
       <PageHero eyebrow="Legal" title="Privacy Policy" image={IMG.tow3} />
       <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 text-muted-foreground space-y-4">
-        <p>We respect your privacy. This policy explains what data we collect when you contact T1T Towing & Recovery and how we use it.</p>
+        <p>We respect your privacy. This policy explains what data we collect when you contact Fast Recovery Pro and how we use it.</p>
         <h2 className="text-2xl font-bold text-foreground">What we collect</h2>
         <p>When you call, message or submit our contact form, we may collect your name, phone number, location and details of your request — used only to dispatch help and follow up about the job.</p>
         <h2 className="text-2xl font-bold text-foreground">How we use it</h2>
