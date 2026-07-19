@@ -24,9 +24,9 @@ export const IMG = {
   storage: ASSET_BASE + storage.url,
 };
 
-export const PHONE = "+353872521943";
-export const PHONE_DISPLAY = "087 252 1943";
-export const WHATSAPP = "https://wa.me/353872521943";
-export const EMAIL = "ttowinfo@gmail.com";
-export const ADDRESS = "Dublin, Ireland";
+export const PHONE = "+971509495250";
+export const PHONE_DISPLAY = "050 9495250";
+export const WHATSAPP = "https://wa.me/971509495250";
+export const EMAIL = "Amirbahi3828@gmail.com";
+export const ADDRESS = "Abu Dhabi, UAE";
 export const BRAND = "Fast Recovery Pro";
