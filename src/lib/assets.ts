@@ -1,9 +1,5 @@
-import logo from "@/assets/logo.asset.json";
-
-const ASSET_BASE = "https://t1ttowingandrecovery.lovable.app";
-
 export const IMG = {
-  logo: ASSET_BASE + logo.url,
+  logo: "/images/logo.webp",
   hero: "/images/hero.webp",
   emergencyCarRecovery: "/images/emergency-car-recovery.webp",
   vehicleTowingService: "/images/vehicle-towing-service.webp",
