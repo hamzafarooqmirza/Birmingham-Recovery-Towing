@@ -7,7 +7,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
-    meta: pageMeta({ title: "About Us — T1T Towing & Recovery", description: "Learn about T1T Towing & Recovery, Ireland's trusted 24/7 roadside assistance and vehicle transport company.", path: "/about", image: IMG.tow3 }),
+    meta: pageMeta({ title: "About Us — Fast Recovery Pro", description: "Learn about Fast Recovery Pro, Ireland's trusted 24/7 roadside assistance and vehicle transport company.", path: "/about", image: IMG.tow3 }),
     links: [{ rel: "canonical", href: "/about" }],
   }),
   component: About,
@@ -16,10 +16,10 @@ export const Route = createFileRoute("/about")({
 function About() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="About Us" title="Built on trust, driven by service" subtitle="T1T Towing & Recovery is a family-run Irish company built on punctuality, transparency and care for every vehicle we handle." image={IMG.tow3} />
+      <PageHero eyebrow="About Us" title="Built on trust, driven by service" subtitle="Fast Recovery Pro is a family-run Irish company built on punctuality, transparency and care for every vehicle we handle." image={IMG.tow3} />
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16 grid gap-10 lg:grid-cols-2 items-center">
         <div className="overflow-hidden rounded-3xl border border-border shadow-2xl">
-          <img src={IMG.tow4} alt="T1T tow truck recovering a classic car" className="h-full w-full object-cover aspect-[4/3]" />
+          <img src={IMG.tow4} alt="Fast Recovery Pro tow truck recovering a classic car" className="h-full w-full object-cover aspect-[4/3]" />
         </div>
         <div>
           <h2 className="text-3xl md:text-4xl font-black">Our Story</h2>

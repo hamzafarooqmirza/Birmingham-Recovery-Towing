@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/jump-start")({
   head: () => ({
-    meta: pageMeta({ title: "Jump Start Service — Flat Battery Help | T1T Ireland", description: "Mobile jump start service across Ireland. Flat battery? We come to you with professional booster equipment and get you moving fast.", path: "/jump-start", image: IMG.jumpstart }),
+    meta: pageMeta({ title: "Jump Start Service — Flat Battery Help | Fast Recovery Pro Ireland", description: "Mobile jump start service across Ireland. Flat battery? We come to you with professional booster equipment and get you moving fast.", path: "/jump-start", image: IMG.jumpstart }),
     links: [{ rel: "canonical", href: "/jump-start" }],
   }),
   component: JumpStart,

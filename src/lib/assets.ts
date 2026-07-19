@@ -29,4 +29,4 @@ export const PHONE_DISPLAY = "087 252 1943";
 export const WHATSAPP = "https://wa.me/353872521943";
 export const EMAIL = "ttowinfo@gmail.com";
 export const ADDRESS = "Dublin, Ireland";
-export const BRAND = "T1T Towing & Recovery";
+export const BRAND = "Fast Recovery Pro";

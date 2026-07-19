@@ -11,7 +11,7 @@ import { Phone, MessageCircle, Clock, Zap, Users, BadgeEuro, ShieldCheck, Star, 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta({
-      title: "T1T Towing & Recovery — 24/7 Roadside Assistance Ireland",
+      title: "Fast Recovery Pro — 24/7 Roadside Assistance Ireland",
       description: "Ireland's trusted 24/7 vehicle recovery, jump start, battery replacement, mobile tyre service and secure storage. Fast response, fair prices.",
       path: "/",
       image: IMG.tow4,
@@ -26,7 +26,7 @@ function Home() {
     <SiteLayout>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={IMG.tow4} alt="T1T tow truck recovering a vehicle in Ireland" className="h-full w-full object-cover opacity-50" />
+          <img src={IMG.tow4} alt="Fast Recovery Pro tow truck recovering a vehicle in Ireland" className="h-full w-full object-cover opacity-50" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-10 md:py-14">
@@ -39,7 +39,7 @@ function Home() {
             & Towing & Recovery
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
-            Stuck on the road? T1T Towing & Recovery is Ireland's go-to team for fast, professional roadside help — anywhere, anytime.
+            Stuck on the road? Fast Recovery Pro is Ireland's go-to team for fast, professional roadside help — anywhere, anytime.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/40 hover:scale-[1.02] transition">
@@ -144,7 +144,7 @@ function Home() {
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[IMG.tow1, IMG.tow2, IMG.tow3, IMG.tow4, IMG.tow5, IMG.tyre].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-2xl border border-border aspect-square">
-              <img src={src} alt={`T1T Towing fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
+              <img src={src} alt={`Fast Recovery Pro fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
             </div>
           ))}
         </div>

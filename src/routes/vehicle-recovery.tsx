@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Towing & Recovery — 24/7 Tow Truck Ireland | T1T", description: "Professional 24/7 vehicle recovery and tow truck service across Ireland. Fast response, fixed fair pricing, fully insured.", path: "/vehicle-recovery", image: IMG.tow4 }),
+    meta: pageMeta({ title: "Towing & Recovery — 24/7 Tow Truck Ireland | Fast Recovery Pro", description: "Professional 24/7 vehicle recovery and tow truck service across Ireland. Fast response, fixed fair pricing, fully insured.", path: "/vehicle-recovery", image: IMG.tow4 }),
     links: [{ rel: "canonical", href: "/vehicle-recovery" }],
   }),
   component: VehicleRecovery,
