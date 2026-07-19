@@ -87,14 +87,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Fast Recovery Pro — 24/7 Roadside Assistance Ireland" },
       { property: "og:description", content: "24/7 emergency roadside assistance, vehicle recovery, jump start, battery replacement, mobile tyre service and secure vehicle storage across Ireland." },
       { name: "twitter:description", content: "24/7 emergency roadside assistance, vehicle recovery, jump start, battery replacement, mobile tyre service and secure vehicle storage across Ireland." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53eb2add-23e6-4711-8ab1-268f8afe3d83/id-preview-6a52e103--6e2c42f6-3c5a-41ff-bb8b-95aa56238f1e.lovable.app-1781635494438.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53eb2add-23e6-4711-8ab1-268f8afe3d83/id-preview-6a52e103--6e2c42f6-3c5a-41ff-bb8b-95aa56238f1e.lovable.app-1781635494438.png" },
+      { property: "og:image", content: "/og-image.webp" },
+      { name: "twitter:image", content: "/og-image.webp" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "icon", type: "image/webp", href: "/favicon.webp" },
+      { rel: "apple-touch-icon", href: "/favicon.webp" },
     ],
     scripts: [
       {
