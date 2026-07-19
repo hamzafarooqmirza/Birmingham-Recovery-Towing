@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-storage")({
   head: () => ({
-    meta: pageMeta({ title: "Secure Vehicle Storage Ireland | Fast Recovery Pro", description: "Safe, secure short and long-term vehicle storage in Ireland. Ideal for classics, project cars, and seasonal storage.", path: "/vehicle-storage", image: IMG.carTowing }),
+    meta: pageMeta({ title: "Secure Vehicle Storage UAE | Fast Recovery Pro", description: "Safe, secure short and long-term vehicle storage in the UAE. Ideal for classics, project cars, and seasonal storage.", path: "/vehicle-storage", image: IMG.carTowing }),
     links: [{ rel: "canonical", href: "/vehicle-storage" }],
   }),
   component: VehicleStorage,
