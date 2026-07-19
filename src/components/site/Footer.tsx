@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP, EMAIL, ADDRESS, BRAND } from "@/lib/assets";
 import { SERVICES } from "@/lib/services";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, Heart } from "lucide-react";
 
 export function Footer() {
   return (
@@ -41,8 +41,11 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-border/60 px-4 py-6 text-center text-xs text-muted-foreground">
-        powered by LeadCore Digital&nbsp;
+      <div className="border-t border-border/60 px-4 py-6 flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
+        Design with <Heart className="h-3.5 w-3.5 fill-primary text-primary" /> by{" "}
+        <a href="https://linkedo.co.uk/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-primary hover:underline">
+          Linkedo
+        </a>
       </div>
     </footer>
   );
