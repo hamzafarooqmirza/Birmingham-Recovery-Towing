@@ -9,7 +9,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
-    meta: pageMeta({ title: "Services — Fast Recovery Pro", description: "Vehicle recovery, jump start, battery replacement, mobile tyre service and secure vehicle storage across Ireland.", path: "/services", image: IMG.tow1 }),
+    meta: pageMeta({ title: "Services — Fast Recovery Pro", description: "Emergency recovery, towing, accident recovery, and specialist vehicle transport services across Ireland.", path: "/services", image: IMG.tow1 }),
     links: [{ rel: "canonical", href: "/services" }],
   }),
   component: ServicesPage,
