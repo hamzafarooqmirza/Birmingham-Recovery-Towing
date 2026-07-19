@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across Ireland.", path: "/contact", image: IMG.roadsideAssistance }),
+    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across the UAE.", path: "/contact", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/contact" }],
   }),
   component: ContactPage,
@@ -25,7 +25,7 @@ function ContactPage() {
               { i: Phone, t: "Phone (24/7)", v: PHONE_DISPLAY, href: `tel:${PHONE}` },
               { i: MessageCircle, t: "WhatsApp", v: "Message us instantly", href: WHATSAPP },
               { i: Mail, t: "Email", v: EMAIL, href: `mailto:${EMAIL}` },
-              { i: MapPin, t: "Address", v: ADDRESS, href: "#" },
+              { i: MapPin, t: "Address", v: ADDRESS, href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS)}` },
             ].map((c) => (
               <a key={c.t} href={c.href} className="flex items-start gap-4 rounded-3xl border border-border bg-card/60 p-6 backdrop-blur-xl hover:border-primary/50 transition">
                 <span className="grid h-12 w-12 place-items-center rounded-2xl bg-primary/15 text-primary shrink-0"><c.i className="h-6 w-6" /></span>
@@ -37,7 +37,7 @@ function ContactPage() {
             ))}
           </div>
           <div className="mt-6 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=-6.5%2C53.2%2C-6.0%2C53.5&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.2273%2C24.3039%2C54.5273%2C24.6039&layer=mapnik" className="h-full w-full" loading="lazy" />
           </div>
         </div>
         <ContactForm />

@@ -23,7 +23,7 @@ function PrivacyPage() {
         <h2 className="text-2xl font-bold text-foreground">How we use it</h2>
         <p>We use your information solely to provide our roadside assistance and recovery services. We never sell or share your data with third parties.</p>
         <h2 className="text-2xl font-bold text-foreground">Your rights</h2>
-        <p>Under GDPR, you may request access to, correction of, or deletion of your personal data at any time by contacting us.</p>
+        <p>In accordance with UAE data protection law, you may request access to, correction of, or deletion of your personal data at any time by contacting us.</p>
       </article>
     </SiteLayout>
   );

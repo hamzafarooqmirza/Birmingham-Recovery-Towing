@@ -7,7 +7,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
-    meta: pageMeta({ title: "About Us — Fast Recovery Pro", description: "Learn about Fast Recovery Pro, Ireland's trusted 24/7 roadside assistance and vehicle transport company.", path: "/about", image: IMG.roadsideAssistance }),
+    meta: pageMeta({ title: "About Us — Fast Recovery Pro", description: "Learn about Fast Recovery Pro, the UAE's trusted 24/7 roadside assistance and vehicle transport company.", path: "/about", image: IMG.roadsideAssistance }),
     links: [{ rel: "canonical", href: "/about" }],
   }),
   component: About,
@@ -23,7 +23,7 @@ function About() {
         </div>
         <div>
           <h2 className="text-3xl md:text-4xl font-black">Our Story</h2>
-          <p className="mt-4 text-muted-foreground">What started as a single tow truck has grown into a fully-equipped fleet serving drivers across Dublin and beyond. We've recovered everything from family hatchbacks to rare classics, and we treat every job with the same level of professionalism.</p>
+          <p className="mt-4 text-muted-foreground">What started as a single tow truck has grown into a fully-equipped fleet serving drivers across Abu Dhabi and beyond. We've recovered everything from family hatchbacks to rare classics, and we treat every job with the same level of professionalism.</p>
           <p className="mt-4 text-muted-foreground">Our mission is simple: get you back on the road — or get your vehicle safely where it needs to go — quickly, affordably and without stress.</p>
         </div>
       </section>
