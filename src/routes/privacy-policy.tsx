@@ -1,0 +1,30 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { SiteLayout } from "@/components/site/Layout";
+import { PageHero } from "@/components/site/PageHero";
+import { IMG } from "@/lib/assets";
+import { pageMeta } from "@/lib/seo";
+
+export const Route = createFileRoute("/privacy-policy")({
+  head: () => ({
+    meta: pageMeta({ title: "Privacy Policy — T1T Towing & Recovery", description: "How T1T Towing & Recovery collects, uses and protects your personal information.", path: "/privacy-policy" }),
+    links: [{ rel: "canonical", href: "/privacy-policy" }],
+  }),
+  component: PrivacyPage,
+});
+
+function PrivacyPage() {
+  return (
+    <SiteLayout>
+      <PageHero eyebrow="Legal" title="Privacy Policy" image={IMG.tow3} />
+      <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 text-muted-foreground space-y-4">
+        <p>We respect your privacy. This policy explains what data we collect when you contact T1T Towing & Recovery and how we use it.</p>
+        <h2 className="text-2xl font-bold text-foreground">What we collect</h2>
+        <p>When you call, message or submit our contact form, we may collect your name, phone number, location and details of your request — used only to dispatch help and follow up about the job.</p>
+        <h2 className="text-2xl font-bold text-foreground">How we use it</h2>
+        <p>We use your information solely to provide our roadside assistance and recovery services. We never sell or share your data with third parties.</p>
+        <h2 className="text-2xl font-bold text-foreground">Your rights</h2>
+        <p>Under GDPR, you may request access to, correction of, or deletion of your personal data at any time by contacting us.</p>
+      </article>
+    </SiteLayout>
+  );
+}
