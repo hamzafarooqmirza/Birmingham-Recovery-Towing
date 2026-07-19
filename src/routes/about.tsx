@@ -16,7 +16,7 @@ export const Route = createFileRoute("/about")({
 function About() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="About Us" title="Built on trust, driven by service" subtitle="Fast Recovery Pro is a family-run Irish company built on punctuality, transparency and care for every vehicle we handle." image={IMG.roadsideAssistance} />
+      <PageHero eyebrow="About Us" title="Built on trust, driven by service" subtitle="Fast Recovery Pro is a family-run UAE company built on punctuality, transparency and care for every vehicle we handle." image={IMG.roadsideAssistance} />
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16 grid gap-10 lg:grid-cols-2 items-center">
         <div className="overflow-hidden rounded-3xl border border-border shadow-2xl">
           <img src={IMG.carTowing} alt="Fast Recovery Pro tow truck recovering a classic car" className="h-full w-full object-cover aspect-[4/3]" />
@@ -29,7 +29,7 @@ function About() {
       </section>
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-10 grid gap-6 md:grid-cols-3">
         {[
-          { t: "Our Mission", d: "Deliver fast, honest, professional roadside help to every Irish driver." },
+          { t: "Our Mission", d: "Deliver fast, honest, professional roadside help to every driver in the UAE." },
           { t: "Our Promise", d: "Transparent pricing, no hidden fees, and a real human on every call." },
           { t: "Our Team", d: "Trained, insured operators who treat your vehicle like their own." },
         ].map((b) => (
