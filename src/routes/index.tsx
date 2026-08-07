@@ -11,12 +11,12 @@ import { Phone, MessageCircle, Clock, Zap, Users, Banknote, ShieldCheck, Star, P
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: pageMeta({
-      title: "Fast Recovery Pro — 24/7 Roadside Assistance UAE",
-      description: "The UAE's trusted 24/7 emergency recovery, towing, accident recovery and specialist vehicle transport. Fast response, fair prices.",
+      title: "Birmingham Recovery & Towing — 24/7 Car Recovery Birmingham | Breakdown Recovery Near Me",
+      description: "Birmingham's trusted 24/7 car recovery, breakdown recovery, accident recovery & vehicle transport. Fast response across West Midlands & nationwide UK. Call now.",
       path: "/",
       image: IMG.hero,
     }),
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/" }],
   }),
   component: Home,
 });
@@ -26,20 +26,20 @@ function Home() {
     <SiteLayout>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={IMG.hero} alt="Fast Recovery Pro tow truck recovering a vehicle in UAE" className="h-full w-full object-cover opacity-50" />
+          <img src={IMG.hero} alt="Birmingham Recovery & Towing — tow truck recovering a vehicle in Birmingham" className="h-full w-full object-cover opacity-50" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-10 md:py-14">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary">
-            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" /> Available 24/7 · Nationwide
+            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" /> Available 24/7 · Birmingham & Nationwide
           </span>
           <h1 className="mt-6 text-5xl md:text-7xl font-black tracking-tight leading-[1.05]">
-            24/7 Emergency<br />
-            <span className="bg-gradient-to-r from-primary to-yellow-200 bg-clip-text text-transparent">Car Recovery</span><br />
-            & Towing
+            24/7 Car Recovery<br />
+            <span className="bg-gradient-to-r from-primary to-yellow-200 bg-clip-text text-transparent">Birmingham</span><br />
+            & West Midlands
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
-            Stuck on the road? Fast Recovery Pro is the UAE's go-to team for fast, professional roadside help — anywhere, anytime.
+            Broken down in Birmingham? Birmingham Recovery & Towing is your go-to team for fast, professional car recovery, breakdown recovery and vehicle transport — anywhere, anytime.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/40 hover:scale-[1.02] transition">
@@ -52,9 +52,9 @@ function Home() {
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl">
             {[
               { k: "24/7", v: "Always Open" },
-              { k: "15-30min", v: "Avg Response" },
-              { k: "10k+", v: "Jobs Done" },
-              { k: "5★", v: "Customer Rated" },
+              { k: "30min", v: "Avg Response" },
+              { k: "5000+", v: "Jobs Completed" },
+              { k: "5★", v: "Google Rated" },
             ].map((s) => (
               <div key={s.k} className="rounded-2xl border border-border bg-card/60 px-4 py-3 backdrop-blur-xl">
                 <div className="text-2xl font-black text-primary">{s.k}</div>
@@ -87,11 +87,11 @@ function Home() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
             { i: Clock, t: "Available 24/7", d: "Day or night, weekend or holiday — we're always one call away." },
-            { i: Zap, t: "Fast Response", d: "Average 20-40min arrival across Abu Dhabi and the wider Emirates." },
+            { i: Zap, t: "Fast Response", d: "Average 30-minute response across Birmingham and the West Midlands." },
             { i: Users, t: "Experienced Team", d: "Trained operators who handle your vehicle with the utmost care." },
-            { i: Banknote, t: "Affordable Prices", d: "Fair, transparent pricing with no hidden fees, ever." },
-            { i: ShieldCheck, t: "Reliable Service", d: "Modern fleet, full insurance and a track record you can trust." },
-            { i: Star, t: "Customer Satisfaction", d: "Hundreds of five-star reviews from happy customers across the UAE." },
+            { i: Banknote, t: "Affordable Prices", d: "Fair, transparent pricing with no hidden fees — ever." },
+            { i: ShieldCheck, t: "Fully Insured", d: "Fully insured recovery fleet with a trusted track record across the UK." },
+            { i: Star, t: "5-Star Rated", d: "Hundreds of five-star Google reviews from satisfied Birmingham customers." },
           ].map((w) => (
             <div key={w.t} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl transition hover:border-primary/50">
               <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary/15 text-primary"><w.i className="h-6 w-6" /></div>
@@ -106,9 +106,9 @@ function Home() {
         <h2 className="text-4xl md:text-5xl font-black text-center">How It Works</h2>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
-            { n: "01", i: PhoneCall, t: "Call Us", d: "Phone or WhatsApp our 24/7 line and tell us your location." },
-            { n: "02", i: Truck, t: "We Dispatch", d: "Our nearest truck or van is dispatched within minutes." },
-            { n: "03", i: CheckCircle2, t: "Problem Solved", d: "We get you back on the road or safely transport your vehicle." },
+            { n: "01", i: PhoneCall, t: "Call or WhatsApp", d: "Phone or WhatsApp our 24/7 Birmingham line and tell us your location." },
+            { n: "02", i: Truck, t: "We Dispatch Fast", d: "The nearest truck is dispatched immediately — average 30-minute response." },
+            { n: "03", i: CheckCircle2, t: "Problem Solved", d: "We recover your vehicle or transport it safely to any UK destination." },
           ].map((s) => (
             <div key={s.n} className="relative rounded-3xl border border-border bg-card/60 p-8 backdrop-blur-xl">
               <div className="absolute -top-4 right-6 text-5xl font-black text-primary/30">{s.n}</div>
@@ -124,11 +124,12 @@ function Home() {
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
         <h2 className="text-4xl md:text-5xl font-black text-center">What Our Customers Say</h2>
+        <p className="mx-auto mt-3 max-w-2xl text-center text-muted-foreground">Trusted by hundreds of Birmingham & West Midlands drivers — see what they say.</p>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
-            { n: "Sara Al Mansoori", l: "Abu Dhabi", t: "Broke down on Sheikh Zayed Road at 11pm — they were with me in 12 minutes. Professional and so kind." },
-            { n: "Omar Al Shamsi", l: "Al Ain", t: "Best price I got for a long-distance recovery. Friendly driver, no nonsense. Highly recommend." },
-            { n: "Fatima Khan", l: "Dubai", t: "Flat tyre on the school run. They came out, swapped it, and I was sorted in 20 minutes. Lifesavers." },
+            { n: "James T.", l: "Birmingham City Centre", t: "Broke down on the A38 at midnight — they arrived in under 30 minutes. Brilliant service, very professional. Will definitely use again." },
+            { n: "Priya S.", l: "Solihull", t: "Needed a car recovery from the motorway. Fair price, friendly driver and my car was delivered safely. Highly recommend Birmingham Recovery & Towing!" },
+            { n: "Mohammed A.", l: "Erdington", t: "Put the wrong fuel in my van — absolute nightmare. These guys came out fast, sorted it no problem. Lifesavers. Great price too." },
           ].map((r) => (
             <div key={r.n} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl">
               <div className="flex gap-1 text-primary">{Array.from({ length: 5 }).map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}</div>
@@ -137,6 +138,16 @@ function Home() {
             </div>
           ))}
         </div>
+        <div className="mt-10 text-center">
+          <a
+            href="https://www.google.com/maps/place/Birmingham+Recovery+%26+Towing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold hover:bg-secondary transition"
+          >
+            <Star className="h-4 w-4 fill-primary text-primary" /> Read all Google Reviews
+          </a>
+        </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
@@ -144,7 +155,7 @@ function Home() {
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
           {[IMG.hero, IMG.roadsideAssistance, IMG.carTowing, IMG.carAndTowingVan, IMG.breakdownRecoveryAlt, IMG.emergencyCarRecovery].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-2xl border border-border aspect-square">
-              <img src={src} alt={`Fast Recovery Pro fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
+              <img src={src} alt={`Birmingham Recovery & Towing fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
             </div>
           ))}
         </div>
@@ -157,9 +168,17 @@ function Home() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Get in touch</p>
           <h2 className="mt-3 text-4xl md:text-5xl font-black">Need help right now?</h2>
-          <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our dispatchers are standing by 24/7.</p>
+          <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our Birmingham dispatchers are standing by 24/7.</p>
           <div className="mt-8 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.2273%2C24.3039%2C54.5273%2C24.6039&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe
+              title="Birmingham Recovery & Towing — Service Area Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645131.5942716541!2d-2.602306876475857!3d52.174881679598826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd3b44a51e71%3A0x34d24ee56e000d72!2sBirmingham%20Recovery%20%26%20Towing!5e1!3m2!1sen!2s!4v1786126694835!5m2!1sen!2s"
+              className="h-full w-full"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
         </div>
         <ContactForm />

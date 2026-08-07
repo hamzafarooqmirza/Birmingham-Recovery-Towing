@@ -21,9 +21,11 @@ export const IMG = {
   carAndTowingVan: "/images/car-and-towing-van.webp",
 };
 
-export const PHONE = "+971509495250";
-export const PHONE_DISPLAY = "050 9495250";
-export const WHATSAPP = "https://wa.me/971509495250";
-export const EMAIL = "Amirbahi3828@gmail.com";
-export const ADDRESS = "Abu Dhabi, UAE";
-export const BRAND = "Fast Recovery Pro";
+export const PHONE = "+447392429947";
+export const PHONE_DISPLAY = "+44 7392 429947";
+export const WHATSAPP = "https://wa.me/447392429947";
+export const EMAIL = "baqoshirecovery24@gmail.com";
+export const ADDRESS = "Birmingham, West Midlands, United Kingdom";
+export const BRAND = "Birmingham Recovery & Towing";
+export const DOMAIN = "247recoverybirmingham.co.uk";
+export const AREAS = "Birmingham, West Midlands & Nationwide across the UK";

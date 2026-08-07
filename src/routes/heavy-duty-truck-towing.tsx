@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/heavy-duty-truck-towing")({
   head: () => ({
-    meta: pageMeta({ title: "Heavy-Duty & Truck Towing | Fast Recovery Pro", description: "Rated equipment and experienced crews for trucks, lorries and heavy commercial vehicles.", path: "/heavy-duty-truck-towing", image: IMG.heavyDutyTruckTowing }),
-    links: [{ rel: "canonical", href: "/heavy-duty-truck-towing" }],
+    meta: pageMeta({ title: "Long Distance Vehicle Transport Birmingham | UK Vehicle Transport", description: "Long distance vehicle transport from Birmingham to anywhere in the UK. Birmingham Recovery & Towing offers safe, reliable nationwide vehicle transport for cars, vans and light commercials.", path: "/heavy-duty-truck-towing", image: IMG.heavyDutyTruckTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/heavy-duty-truck-towing" }],
   }),
   component: HeavyDutyTruckTowing,
 });
@@ -16,18 +16,18 @@ function HeavyDutyTruckTowing() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Heavy-Duty & Truck Towing (سحب الشاحنات والمركبات الثقيلة)" hero={IMG.heavyDutyTruckTowing}
-        description="Heavier vehicles need heavier-rated equipment. Our heavy-duty towing service is built around the size, weight and complexity of trucks and large commercial vehicles."
-        benefits={["Heavy-duty tow trucks rated for large commercial vehicles", "Experienced crews trained on truck and lorry recoveries", "Suitable for breakdowns, accidents and abandoned heavy vehicles", "Load-securing appropriate to vehicle size and cargo", "Coordination with hauliers and fleet operators", "Available for scheduled and emergency heavy recoveries"]}
+        eyebrow="Service" title="Long Distance Vehicle Transport Birmingham" hero={IMG.heavyDutyTruckTowing}
+        description="Need your vehicle transported from Birmingham to another UK city — or collected from anywhere in the UK? Birmingham Recovery & Towing provides safe, professional long distance vehicle transport for cars, vans and light commercials nationwide."
+        benefits={["Long distance vehicle transport from Birmingham to anywhere in the UK", "Nationwide collection — we come to you wherever you are", "Safe flatbed transport to protect vehicles over long distances", "Suitable for cars, vans and light commercial vehicles", "Pre-transport condition checks for your peace of mind", "Available 7 days a week including weekends and bank holidays"]}
         why={[
-          { title: "Rated for Heavy Loads", desc: "Equipment matched to truck and lorry weights, not passenger cars." },
-          { title: "Fleet Experience", desc: "Comfortable coordinating with hauliers and logistics teams." },
-          { title: "Safety First", desc: "Heavy recoveries are planned carefully to protect crew and cargo." },
+          { title: "Nationwide Coverage", desc: "We transport vehicles from Birmingham to any UK destination, or collect from anywhere." },
+          { title: "Safe Transit", desc: "Flatbed transport and secure strapping protect your vehicle on long journeys." },
+          { title: "Transparent Pricing", desc: "Fixed quote before we start — no hidden charges on long distance jobs." },
         ]}
         faqs={[
-          { q: "Can you tow a fully loaded truck?", a: "We assess the load and vehicle before confirming the right equipment for the job." },
-          { q: "Do you work with haulage companies?", a: "Yes, we regularly support hauliers and fleet operators." },
-          { q: "Is heavy-duty towing available 24/7?", a: "Yes, emergency heavy vehicle recovery is available around the clock." },
+          { q: "Can you transport my car from Birmingham to London?", a: "Yes — call +44 7392 429947 for a quote on long distance vehicle transport to any UK destination." },
+          { q: "Do you collect vehicles from outside Birmingham?", a: "Yes, we collect from anywhere in the UK and deliver to Birmingham or any other UK address." },
+          { q: "Is long distance vehicle transport available at weekends?", a: "Yes, we operate 7 days a week including weekends and bank holidays." },
         ]}
       />
     </SiteLayout>

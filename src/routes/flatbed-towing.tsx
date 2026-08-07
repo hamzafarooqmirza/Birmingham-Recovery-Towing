@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/flatbed-towing")({
   head: () => ({
-    meta: pageMeta({ title: "Flatbed Towing Service | Fast Recovery Pro", description: "Zero-contact, wheels-off-the-ground transport for vehicles that need the gentlest ride.", path: "/flatbed-towing", image: IMG.flatbedTowing }),
-    links: [{ rel: "canonical", href: "/flatbed-towing" }],
+    meta: pageMeta({ title: "Trailer Transport Birmingham | Trailer Recovery West Midlands", description: "Safe trailer transport and recovery across Birmingham, West Midlands and nationwide UK. All trailer sizes. Birmingham Recovery & Towing — call 24/7.", path: "/flatbed-towing", image: IMG.flatbedTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/flatbed-towing" }],
   }),
   component: FlatbedTowing,
 });
@@ -16,18 +16,18 @@ function FlatbedTowing() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Flatbed Towing Service (خدمة السحب بالونش المسطح)" hero={IMG.flatbedTowing}
-        description="Our tilt-and-slide flatbed trucks load your vehicle without towing it on its own wheels, making this the safest option for low vehicles, non-runners and high-value cars."
-        benefits={["Hydraulic tilt-and-slide loading", "No wheels-on-road towing, reducing wear and risk", "Ideal for low-clearance and non-running vehicles", "Secure strapping and soft-tie systems", "Suitable for local and long-distance moves", "Ramps rated for a wide range of vehicle weights"]}
+        eyebrow="Service" title="Trailer Transport Birmingham" hero={IMG.flatbedTowing}
+        description="Birmingham Recovery & Towing transports trailers of all sizes safely and securely across Birmingham, West Midlands and nationwide UK — 24 hours a day."
+        benefits={["Transport for all trailer sizes and types", "Secure strapping and load restraint systems", "Local Birmingham and nationwide UK delivery", "Available 24/7 for urgent and planned transport", "Experienced operators with proper towing equipment", "Fixed-fee quotes with no hidden costs"]}
         why={[
-          { title: "Gentlest Transport", desc: "Your vehicle rides fully off the ground, not dragged on its wheels." },
-          { title: "Handles Non-Runners", desc: "Perfect for vehicles that can't be safely driven onto a truck." },
-          { title: "Secure Load", desc: "Multi-point strapping keeps your vehicle stable in transit." },
+          { title: "All Trailer Types", desc: "We transport flatbed trailers, box trailers, car trailers and more." },
+          { title: "Nationwide Coverage", desc: "From Birmingham to anywhere in the UK — safely and on time." },
+          { title: "Secure Load", desc: "Multi-point restraints keep your trailer safe throughout transit." },
         ]}
         faqs={[
-          { q: "What's the benefit of flatbed over a normal tow?", a: "The vehicle is fully lifted off the road, avoiding wear and damage from being towed on its wheels." },
-          { q: "Can you flatbed a car that won't start?", a: "Yes — flatbeds are ideal for vehicles that can't be driven." },
-          { q: "Is flatbed towing safe for low sports cars?", a: "Yes, tilt-and-slide ramps are designed for low-clearance vehicles." },
+          { q: "Can you transport my trailer from Birmingham nationwide?", a: "Yes — we transport trailers to any UK destination from Birmingham." },
+          { q: "Do you transport car-carrying trailers?", a: "Yes, including car trailers and specialist transport trailers." },
+          { q: "Can you collect a trailer in an emergency?", a: "Yes — call us 24/7 for urgent trailer transport and recovery." },
         ]}
       />
     </SiteLayout>

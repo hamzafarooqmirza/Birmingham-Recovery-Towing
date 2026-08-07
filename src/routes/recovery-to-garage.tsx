@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/recovery-to-garage")({
   head: () => ({
-    meta: pageMeta({ title: "Recovery to Garage/Workshop | Fast Recovery Pro", description: "We'll take your vehicle straight to your trusted garage or workshop for repair.", path: "/recovery-to-garage", image: IMG.recoveryToGarage }),
-    links: [{ rel: "canonical", href: "/recovery-to-garage" }],
+    meta: pageMeta({ title: "Trade Vehicle Delivery Birmingham | Trade Car Transport West Midlands", description: "Reliable trade vehicle delivery across Birmingham, West Midlands and the UK. Birmingham Recovery & Towing collects and delivers vehicles for dealers, traders and fleet operators.", path: "/recovery-to-garage", image: IMG.recoveryToGarage }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/recovery-to-garage" }],
   }),
   component: RecoveryToGarage,
 });
@@ -16,18 +16,18 @@ function RecoveryToGarage() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Recovery to Garage/Workshop (النقل إلى الكراج / الورشة)" hero={IMG.recoveryToGarage}
-        description="Already have a garage you trust? We'll recover your vehicle directly to their workshop, coordinating timing so it arrives when they're ready for it."
-        benefits={["Direct transport to any garage or workshop nationwide", "Timing coordinated with your mechanic where possible", "Suitable for breakdowns, accidents and scheduled repairs", "Careful loading to avoid further damage in transit", "Drop-off confirmation once delivered", "Works with independent garages and franchised workshops"]}
+        eyebrow="Service" title="Trade Vehicle Delivery Birmingham" hero={IMG.recoveryToGarage}
+        description="Need a vehicle collected and delivered for trade purposes in Birmingham, West Midlands or across the UK? Birmingham Recovery & Towing provides reliable trade vehicle delivery for car dealers, fleet operators, rental companies and private traders."
+        benefits={["Trade vehicle delivery across Birmingham and West Midlands", "Nationwide UK collection and delivery available", "Suitable for car dealers, fleet operators and rental companies", "Single vehicle and multi-vehicle delivery runs", "Careful handling and pre-delivery condition checks", "Flexible scheduling to suit your business hours"]}
         why={[
-          { title: "Your Choice of Garage", desc: "We go wherever you trust your vehicle to be repaired." },
-          { title: "Coordinated Handover", desc: "We can time delivery around your workshop's schedule." },
-          { title: "No Detours", desc: "Straight from pickup point to your garage door." },
+          { title: "Trade Experienced", desc: "We regularly deliver vehicles for dealers, fleets and rental companies." },
+          { title: "Careful Handling", desc: "Pre-delivery condition checks protect you and your customer." },
+          { title: "Flexible Scheduling", desc: "We work around your business hours for collection and delivery." },
         ]}
         faqs={[
-          { q: "Can you take my car to my own mechanic?", a: "Yes, we'll transport it directly to any garage you choose." },
-          { q: "Do you need my garage's address in advance?", a: "Yes, just let our dispatcher know when you call and we'll head straight there." },
-          { q: "Can you deliver outside normal opening hours?", a: "We can arrange safe drop-off even if the workshop is closed, subject to their access policy." },
+          { q: "Can you deliver trade vehicles across Birmingham?", a: "Yes — call +44 7392 429947 to arrange trade vehicle delivery locally or nationwide." },
+          { q: "Do you deliver for car dealers and fleet operators?", a: "Yes, we regularly work with dealers, fleet companies and rental businesses across the UK." },
+          { q: "Can you do multiple vehicle deliveries in one run?", a: "Contact us to discuss multi-vehicle delivery runs — we can accommodate regular trade requirements." },
         ]}
       />
     </SiteLayout>

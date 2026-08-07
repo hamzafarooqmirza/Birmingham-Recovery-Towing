@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/accident-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Accident Recovery | Fast Recovery Pro", description: "Sensitive, professional recovery after a collision, coordinated with insurers when needed.", path: "/accident-recovery", image: IMG.accidentRecovery }),
-    links: [{ rel: "canonical", href: "/accident-recovery" }],
+    meta: pageMeta({ title: "Accident Recovery Birmingham | Accident Vehicle Recovery West Midlands", description: "Professional accident recovery in Birmingham and West Midlands. Sensitive, fast response after a collision — co-ordinated with your insurer. Call 24/7.", path: "/accident-recovery", image: IMG.accidentRecovery }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/accident-recovery" }],
   }),
   component: AccidentRecovery,
 });
@@ -16,8 +16,8 @@ function AccidentRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Accident Recovery (انتشال حوادث السيارات)" hero={IMG.accidentRecovery}
-        description="After an accident, our team recovers your vehicle safely and sensitively, working alongside insurers and repairers so you can focus on what matters."
+        eyebrow="Service" title="Accident Recovery Birmingham" hero={IMG.accidentRecovery}
+        description="After an accident in Birmingham or West Midlands, Birmingham Recovery & Towing recovers your vehicle safely and sensitively — working alongside your insurer so you can focus on what matters."
         benefits={["Available 24/7 for accident scenes", "Experience working with insurance companies", "Safe recovery of damaged or non-drivable vehicles", "Secure transport to a garage, compound or home", "Clear communication throughout the process", "Compassionate, professional operators"]}
         why={[
           { title: "Insurance-Ready", desc: "We provide the documentation insurers usually ask for." },

@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-towing-service")({
   head: () => ({
-    meta: pageMeta({ title: "Vehicle Towing Service | Fast Recovery Pro", description: "Safe, reliable towing for cars, vans and light vehicles wherever you've stopped, with fixed-fee quotes.", path: "/vehicle-towing-service", image: IMG.vehicleTowingService }),
-    links: [{ rel: "canonical", href: "/vehicle-towing-service" }],
+    meta: pageMeta({ title: "Vehicle Transport Birmingham | Car & Vehicle Transport West Midlands", description: "Safe vehicle transport in Birmingham, West Midlands and nationwide UK. Flatbed transport for all vehicles — fixed-fee quotes. Birmingham Recovery & Towing.", path: "/vehicle-towing-service", image: IMG.vehicleTowingService }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-towing-service" }],
   }),
   component: VehicleTowingService,
 });
@@ -16,18 +16,18 @@ function VehicleTowingService() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Vehicle Towing Service (خدمة سحب المركبات)" hero={IMG.vehicleTowingService}
-        description="From a quick tow around the corner to a longer trip across town, our towing service moves your vehicle safely using the right equipment for the job."
-        benefits={["Suitable for cars, vans and light commercial vehicles", "Wheel-lift and flatbed options available", "Careful handling to avoid further damage", "Local and long-distance towing", "Fully insured drivers and equipment", "Simple, fixed-fee quotes"]}
+        eyebrow="Service" title="Vehicle Transport Birmingham" hero={IMG.vehicleTowingService}
+        description="From local vehicle transport around Birmingham to long-distance UK delivery, Birmingham Recovery & Towing moves your vehicle safely using the right equipment for the job."
+        benefits={["Cars, vans and light commercial vehicles transported safely", "Flatbed and wheel-lift transport options", "Careful handling to avoid any damage", "Local Birmingham transport and nationwide UK delivery", "Fully insured drivers and modern equipment", "Fixed-fee quotes with no hidden costs"]}
         why={[
-          { title: "Right Equipment", desc: "We match the tow method to your vehicle type." },
+          { title: "Right Equipment", desc: "We match the transport method to your vehicle type and needs." },
           { title: "Careful Handling", desc: "Trained operators secure your vehicle properly every time." },
-          { title: "Fair Pricing", desc: "One clear price, agreed before we start." },
+          { title: "Nationwide Delivery", desc: "We transport vehicles from Birmingham to anywhere in the UK." },
         ]}
         faqs={[
-          { q: "What vehicles can you tow?", a: "Cars, vans, and most light commercial vehicles." },
-          { q: "Can you tow automatic transmission cars?", a: "Yes — we use flatbed or wheel-lift methods that are safe for automatics." },
-          { q: "Do you tow long distance?", a: "Yes, both local and long-distance towing are available." },
+          { q: "Can you transport my car from Birmingham to London?", a: "Yes — we offer nationwide vehicle transport from Birmingham to anywhere in the UK." },
+          { q: "Can you transport automatic transmission cars?", a: "Yes — we use flatbed transport methods that are safe for all transmissions." },
+          { q: "How do I get a quote for vehicle transport?", a: "Call or WhatsApp us with your collection and delivery locations for an instant fixed-fee quote." },
         ]}
       />
     </SiteLayout>
