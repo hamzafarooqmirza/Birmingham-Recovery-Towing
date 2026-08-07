@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-storage")({
   head: () => ({
-    meta: pageMeta({ title: "Secure Vehicle Storage UAE | Fast Recovery Pro", description: "Safe, secure short and long-term vehicle storage in the UAE. Ideal for classics, project cars, and seasonal storage.", path: "/vehicle-storage", image: IMG.carTowing }),
-    links: [{ rel: "canonical", href: "/vehicle-storage" }],
+    meta: pageMeta({ title: "Wrong Fuel Recovery Birmingham | Wrong Fuel Draining West Midlands", description: "Put the wrong fuel in your car in Birmingham? Don't start the engine — call Birmingham Recovery & Towing 24/7 for fast, professional wrong fuel recovery and draining.", path: "/vehicle-storage", image: IMG.carTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-storage" }],
   }),
   component: VehicleStorage,
 });
@@ -16,18 +16,18 @@ function VehicleStorage() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Vehicle Storage" hero={IMG.carTowing}
-        description="Going away, restoring a classic or simply need somewhere safe to park your pride and joy? Our secure indoor storage units keep your vehicle protected."
-        benefits={["Secure indoor storage units", "Short-term and long-term options", "Ideal for classics, project cars and seasonal storage", "Dry, ventilated, alarmed facility", "Collection and delivery service available", "Flexible weekly and monthly rates"]}
+        eyebrow="Service" title="Wrong Fuel Recovery Birmingham" hero={IMG.carTowing}
+        description="Put the wrong fuel in your vehicle in Birmingham? Stop — do NOT start the engine. Birmingham Recovery & Towing provides fast, professional wrong fuel recovery and tank draining across Birmingham and West Midlands, 24/7."
+        benefits={["Wrong fuel diagnosis and draining on-site", "Petrol in diesel and diesel in petrol covered", "Fast response — average 30 minutes in Birmingham", "Flush and refuel with the correct fuel", "Available 24/7 including weekends and bank holidays", "Cars, vans and commercial vehicles covered"]}
         why={[
-          { title: "Safe Facility", desc: "Alarmed, monitored and access-controlled." },
-          { title: "Vehicle Friendly", desc: "Dry and ventilated to protect bodywork and interiors." },
-          { title: "Easy Logistics", desc: "Combine with our recovery service for door-to-storage delivery." },
+          { title: "Don't Start the Engine", desc: "The moment you realise, call us — do not start or move the vehicle." },
+          { title: "Professional Draining", desc: "We safely drain and flush the tank with specialist equipment." },
+          { title: "Fast Response", desc: "We reach you quickly to prevent costly engine damage." },
         ]}
         faqs={[
-          { q: "What's the minimum storage period?", a: "We offer flexible weekly rates with no long-term commitment." },
-          { q: "Is the facility insured?", a: "Yes, the storage facility is fully insured and access-controlled." },
-          { q: "Can you collect my car?", a: "Yes — we'll recover and transport it directly into storage." },
+          { q: "I've put petrol in my diesel car in Birmingham — what do I do?", a: "Do NOT start the engine. Call us immediately on +44 7392 429947 and we'll come to you." },
+          { q: "Can wrong fuel damage my engine?", a: "Yes — starting the engine circulates the wrong fuel and can cause serious damage. Call before starting." },
+          { q: "How do you drain the wrong fuel?", a: "We use specialist pump equipment to fully drain the tank and flush the fuel system before refuelling with the correct fuel." },
         ]}
       />
     </SiteLayout>

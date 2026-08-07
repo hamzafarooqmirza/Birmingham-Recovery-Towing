@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/battery-replacement")({
   head: () => ({
-    meta: pageMeta({ title: "Mobile Battery Replacement UAE | Fast Recovery Pro", description: "On-site car battery testing and replacement across the UAE. Quality batteries fitted at your home, workplace or roadside.", path: "/battery-replacement", image: IMG.breakdownRecoveryAlt }),
-    links: [{ rel: "canonical", href: "/battery-replacement" }],
+    meta: pageMeta({ title: "Flat Battery Assistance Birmingham | Battery Help West Midlands", description: "Flat battery in Birmingham? Birmingham Recovery & Towing provides 24/7 battery assistance including jump starts and roadside battery support across West Midlands.", path: "/battery-replacement", image: IMG.breakdownRecoveryAlt }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/battery-replacement" }],
   }),
   component: BatteryReplacement,
 });
@@ -16,18 +16,18 @@ function BatteryReplacement() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Battery Replacement" hero={IMG.breakdownRecoveryAlt}
-        description="If your battery is past saving, we replace it on the spot with a quality, warrantied unit suited to your vehicle. No tow needed."
-        benefits={["On-site battery testing with professional equipment", "Quality replacement batteries fitted on the spot", "Emergency battery replacement, 24/7", "Old battery recycled responsibly", "Suitable for cars, vans, 4x4s and light commercials", "Manufacturer warranty included"]}
+        eyebrow="Service" title="Flat Battery Assistance Birmingham" hero={IMG.breakdownRecoveryAlt}
+        description="Flat battery stranding you in Birmingham? Birmingham Recovery & Towing provides fast roadside battery assistance — including jump starts and on-the-spot battery diagnosis — across Birmingham and West Midlands."
+        benefits={["Flat battery assistance anywhere in Birmingham and West Midlands", "Professional jump start with safety-rated booster equipment", "On-site battery testing and diagnosis", "24/7 emergency response", "Suitable for cars, vans and light commercial vehicles", "Fair, upfront fixed pricing"]}
         why={[
-          { title: "Tested First", desc: "We confirm the battery is the issue before replacing." },
-          { title: "Quality Batteries", desc: "Reliable, warrantied units matched to your car." },
-          { title: "Mobile Service", desc: "We come to your home, work or roadside." },
+          { title: "Tested First", desc: "We diagnose the battery issue before taking any action." },
+          { title: "Safe Equipment", desc: "Voltage-regulated boosters to protect modern vehicle electronics." },
+          { title: "Fast Response", desc: "Average 30-minute response across Birmingham and West Midlands." },
         ]}
         faqs={[
-          { q: "How long do car batteries last?", a: "Typically 4–6 years, but cold weather, short trips and accessories can shorten that." },
-          { q: "Is the warranty included?", a: "Yes — all batteries come with a manufacturer warranty, often 2–4 years." },
-          { q: "Do you take the old battery?", a: "Yes, we recycle it responsibly at no extra cost." },
+          { q: "My battery is flat — will you come to me in Birmingham?", a: "Yes — call +44 7392 429947 and we'll dispatch to your location 24/7." },
+          { q: "What if my battery keeps going flat?", a: "We'll test the battery and charging system on-site and advise on next steps." },
+          { q: "Is battery assistance available at night in Birmingham?", a: "Yes — we're available 24 hours a day, 7 days a week including overnight." },
         ]}
       />
     </SiteLayout>

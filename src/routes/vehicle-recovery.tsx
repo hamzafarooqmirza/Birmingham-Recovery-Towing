@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Towing & Recovery — 24/7 Tow Truck UAE | Fast Recovery Pro", description: "Professional 24/7 vehicle recovery and tow truck service across the UAE. Fast response, fixed fair pricing, fully insured.", path: "/vehicle-recovery", image: IMG.carTowing }),
-    links: [{ rel: "canonical", href: "/vehicle-recovery" }],
+    meta: pageMeta({ title: "Car Recovery Birmingham | 24/7 Car Recovery West Midlands", description: "Professional 24/7 car recovery across Birmingham and West Midlands. Fast response, fixed fair pricing, fully insured. Call Birmingham Recovery & Towing now.", path: "/vehicle-recovery", image: IMG.emergencyCarRecovery }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-recovery" }],
   }),
   component: VehicleRecovery,
 });
@@ -16,18 +16,18 @@ function VehicleRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Towing & Recovery" hero={IMG.carTowing}
-        description="Whether you've broken down, been in an accident, or need a vehicle transported across the country, our tilt-and-slide tow trucks handle every job with care."
-        benefits={["24/7 emergency vehicle recovery", "Tilt-and-slide flatbed trucks for safe loading", "Cars, vans, classics and prestige vehicles", "Accident recovery and insurance work", "Nationwide transport across the UAE", "Fully insured and fair fixed pricing"]}
+        eyebrow="Service" title="Car Recovery Birmingham" hero={IMG.emergencyCarRecovery}
+        description="Whether you've broken down, been in an accident or need a vehicle transported, Birmingham Recovery & Towing provides fast, professional car recovery across Birmingham, West Midlands and nationwide UK."
+        benefits={["24/7 emergency car recovery Birmingham", "Flatbed trucks for safe, damage-free loading", "All car types — hatchbacks, saloons, estates, sports cars", "Accident recovery and insurance work", "Nationwide car transport across the UK", "Fully insured, fixed fair pricing"]}
         why={[
-          { title: "Fastest Response", desc: "Our nearest truck rolls within minutes of your call." },
-          { title: "Damage-Free Loading", desc: "Modern hydraulic flatbeds protect your vehicle." },
-          { title: "Transparent Pricing", desc: "You'll know the price before we leave the depot." },
+          { title: "Fast Response", desc: "Our nearest truck dispatches within minutes of your call across Birmingham." },
+          { title: "Damage-Free Loading", desc: "Modern hydraulic flatbeds keep your vehicle safe throughout." },
+          { title: "Transparent Pricing", desc: "You'll know the exact price upfront — no hidden charges." },
         ]}
         faqs={[
-          { q: "Can you recover from anywhere in the UAE?", a: "Yes, we offer nationwide recovery 24/7." },
-          { q: "Do you handle insurance jobs?", a: "Absolutely — we work with most major insurers." },
-          { q: "Can you transport classic or prestige cars?", a: "Yes — our flatbeds are ideal for low-clearance and high-value vehicles." },
+          { q: "Do you provide car recovery anywhere in the UK?", a: "Yes, we offer nationwide car recovery and transport 24/7 from Birmingham." },
+          { q: "Do you handle insurance recovery jobs?", a: "Absolutely — we work alongside most major UK insurers." },
+          { q: "Can you recover my car to a specific garage in Birmingham?", a: "Yes — we'll take it to your preferred garage, dealership or home." },
         ]}
       />
     </SiteLayout>

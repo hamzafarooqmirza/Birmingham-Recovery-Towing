@@ -8,8 +8,8 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: pageMeta({ title: "Contact Us — Fast Recovery Pro", description: "Call, WhatsApp or message Fast Recovery Pro 24/7 for emergency roadside assistance across the UAE.", path: "/contact", image: IMG.roadsideAssistance }),
-    links: [{ rel: "canonical", href: "/contact" }],
+    meta: pageMeta({ title: "Contact Us — Birmingham Recovery & Towing | 24/7 Car Recovery Birmingham", description: "Call or WhatsApp Birmingham Recovery & Towing 24/7 for emergency car recovery, breakdown recovery and roadside assistance across Birmingham & the West Midlands.", path: "/contact", image: IMG.roadsideAssistance }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/contact" }],
   }),
   component: ContactPage,
 });
@@ -37,7 +37,15 @@ function ContactPage() {
             ))}
           </div>
           <div className="mt-6 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.2273%2C24.3039%2C54.5273%2C24.6039&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe
+              title="Birmingham Recovery & Towing Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645131.5942716541!2d-2.602306876475857!3d52.174881679598826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd3b44a51e71%3A0x34d24ee56e000d72!2sBirmingham%20Recovery%20%26%20Towing!5e1!3m2!1sen!2s!4v1786126694835!5m2!1sen!2s"
+              className="h-full w-full"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
         </div>
         <ContactForm />

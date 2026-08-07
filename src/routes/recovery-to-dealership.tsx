@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/recovery-to-dealership")({
   head: () => ({
-    meta: pageMeta({ title: "Recovery to Dealership | Fast Recovery Pro", description: "Vehicle recovery straight to your dealership for warranty work, service, or diagnostics.", path: "/recovery-to-dealership", image: IMG.recoveryToDealership }),
-    links: [{ rel: "canonical", href: "/recovery-to-dealership" }],
+    meta: pageMeta({ title: "Auction Vehicle Collection Birmingham | Auction Car Transport West Midlands", description: "Collecting a vehicle from auction in Birmingham or West Midlands? Birmingham Recovery & Towing provides reliable auction vehicle collection and transport nationwide.", path: "/recovery-to-dealership", image: IMG.recoveryToDealership }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/recovery-to-dealership" }],
   }),
   component: RecoveryToDealership,
 });
@@ -16,18 +16,18 @@ function RecoveryToDealership() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Recovery to Dealership (النقل إلى الوكالة)" hero={IMG.recoveryToDealership}
-        description="Under warranty or need dealer-specific diagnostics? We'll recover your vehicle directly to the dealership, handled the way manufacturers expect."
-        benefits={["Direct transport to any franchised dealership", "Careful loading suited to warranty vehicle requirements", "Support for service, recall and diagnostic visits", "Coordination with dealership service reception", "Suitable for new and used dealer vehicles", "Documentation available on request"]}
+        eyebrow="Service" title="Auction Vehicle Collection Birmingham" hero={IMG.recoveryToDealership}
+        description="Won a vehicle at auction in Birmingham, West Midlands or anywhere in the UK? Birmingham Recovery & Towing provides professional auction vehicle collection and transport — collecting your purchase and delivering it safely to your home, business or storage."
+        benefits={["Auction vehicle collection from all major UK auction houses", "Safe flatbed transport to protect your purchase", "Collection from Birmingham, West Midlands and nationwide UK auctions", "Delivery to home, business or storage address", "Trade and private buyers welcome", "Prompt collection to meet auction clearance deadlines"]}
         why={[
-          { title: "Warranty-Aware", desc: "We handle vehicles the way dealerships expect for warranty work." },
-          { title: "Direct Delivery", desc: "No stops in between — straight to the dealership bay." },
-          { title: "Professional Handover", desc: "We liaise with service reception so nothing gets lost in translation." },
+          { title: "Auction Specialists", desc: "We understand clearance deadlines and collect promptly to avoid storage charges." },
+          { title: "Safe Transport", desc: "Flatbed loading protects your auction purchase during transit." },
+          { title: "Nationwide Coverage", desc: "We collect from auction houses across the UK and deliver anywhere." },
         ]}
         faqs={[
-          { q: "Will recovery affect my car's warranty?", a: "No, professional recovery to a dealership is standard and won't affect your warranty." },
-          { q: "Can you take my car to any dealership brand?", a: "Yes, we recover to all makes and dealership networks." },
-          { q: "Do you provide paperwork for the dealership?", a: "Yes, documentation can be provided on request." },
+          { q: "Can you collect my auction vehicle in Birmingham?", a: "Yes — call +44 7392 429947 and we'll arrange collection to fit the auction's clearance deadline." },
+          { q: "Do you collect from auction houses outside Birmingham?", a: "Yes, we collect auction vehicles from auction houses across the UK." },
+          { q: "Can you deliver my auction vehicle to any address?", a: "Yes, we deliver to home, business or storage addresses anywhere in the UK." },
         ]}
       />
     </SiteLayout>

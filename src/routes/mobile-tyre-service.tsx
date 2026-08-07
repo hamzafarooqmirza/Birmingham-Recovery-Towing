@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/mobile-tyre-service")({
   head: () => ({
-    meta: pageMeta({ title: "Mobile Tyre Service UAE | Fast Recovery Pro", description: "Flat tyre or blowout? Our fully-equipped mobile tyre van comes to you — replacements, repairs and wheel changes 24/7.", path: "/mobile-tyre-service", image: IMG.carAndTowingVan }),
-    links: [{ rel: "canonical", href: "/mobile-tyre-service" }],
+    meta: pageMeta({ title: "Fuel Delivery Birmingham | Emergency Fuel Delivery West Midlands", description: "Run out of fuel in Birmingham? Birmingham Recovery & Towing delivers emergency fuel 24/7 to get you moving. Fast, affordable fuel delivery service.", path: "/mobile-tyre-service", image: IMG.roadsideAssistance }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/mobile-tyre-service" }],
   }),
   component: MobileTyre,
 });
@@ -16,18 +16,18 @@ function MobileTyre() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Mobile Tyre Service" hero={IMG.carAndTowingVan}
-        description="Our fully-kitted mobile tyre van brings the workshop to you — we balance, fit and swap tyres anywhere across the UAE."
-        benefits={["Flat tyre assistance, 24/7", "On-site tyre replacement and fitting", "Wheel changing and rotation", "Full tyre balancing with mobile equipment", "Suits cars, vans and light commercials", "Save the cost and hassle of being towed"]}
+        eyebrow="Service" title="Fuel Delivery Birmingham" hero={IMG.roadsideAssistance}
+        description="Run out of fuel in Birmingham or the West Midlands? Don't risk running your tank dry and damaging your engine. Birmingham Recovery & Towing delivers emergency fuel to your location, fast — 24/7."
+        benefits={["Emergency fuel delivery across Birmingham and West Midlands", "Petrol and diesel delivery available", "Fast response — average 30 minutes", "Enough fuel delivered to get you to the nearest station safely", "24/7 availability including nights, weekends and bank holidays", "Cars, vans and light commercial vehicles covered"]}
         why={[
-          { title: "Fully Mobile Workshop", desc: "Professional tyre changer and balancer onboard." },
-          { title: "Quality Tyres", desc: "Major brands available — fitted on the spot." },
-          { title: "Always Available", desc: "Day or night, motorway or driveway." },
+          { title: "Fast Delivery", desc: "We get fuel to you quickly so you're not stranded for long." },
+          { title: "Petrol & Diesel", desc: "We carry both petrol and diesel for all vehicle types." },
+          { title: "Always Available", desc: "Emergency fuel delivery 24/7 — day or night across Birmingham." },
         ]}
         faqs={[
-          { q: "Do you carry all tyre sizes?", a: "We carry common sizes and can source any tyre quickly for delivery." },
-          { q: "Can you fit run-flat tyres?", a: "Yes — our equipment handles run-flats and low-profile tyres." },
-          { q: "Will you come to a motorway?", a: "Yes, we attend safe motorway shoulders and service areas 24/7." },
+          { q: "I've run out of fuel in Birmingham — can you help?", a: "Yes — call us on +44 7392 429947 and we'll deliver fuel to your location 24/7." },
+          { q: "How much fuel do you deliver?", a: "We deliver enough to get you safely to the nearest petrol station." },
+          { q: "Do you deliver both petrol and diesel?", a: "Yes, we carry both petrol and diesel for emergency fuel delivery." },
         ]}
       />
     </SiteLayout>

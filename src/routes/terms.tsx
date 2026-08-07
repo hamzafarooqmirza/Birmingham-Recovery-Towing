@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/terms")({
   head: () => ({
-    meta: pageMeta({ title: "Terms & Conditions — Fast Recovery Pro", description: "The terms governing the use of Fast Recovery Pro services.", path: "/terms" }),
-    links: [{ rel: "canonical", href: "/terms" }],
+    meta: pageMeta({ title: "Terms & Conditions — Birmingham Recovery & Towing", description: "The terms governing the use of Birmingham Recovery & Towing services.", path: "/terms" }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/terms" }],
   }),
   component: TermsPage,
 });
@@ -19,7 +19,7 @@ function TermsPage() {
       <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 text-muted-foreground space-y-4">
         <p>By booking or using our services, you agree to the following terms.</p>
         <h2 className="text-2xl font-bold text-foreground">Service</h2>
-        <p>We provide vehicle recovery, roadside assistance, mobile tyre, battery and storage services. Pricing is confirmed before dispatch.</p>
+        <p>We provide vehicle recovery, roadside assistance, breakdown recovery, battery assistance and vehicle transport services across Birmingham and West Midlands. Pricing is confirmed before dispatch.</p>
         <h2 className="text-2xl font-bold text-foreground">Payment</h2>
         <p>Payment is due on completion via cash, card or bank transfer unless otherwise agreed.</p>
         <h2 className="text-2xl font-bold text-foreground">Liability</h2>

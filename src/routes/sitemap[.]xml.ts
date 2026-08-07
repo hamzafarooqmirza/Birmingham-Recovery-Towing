@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { SERVICES } from "@/lib/services";
 
-const BASE_URL = "";
+const BASE_URL = "https://247recoverybirmingham.co.uk";
 
 const paths = [
   "/", "/about", "/services", "/contact", "/gallery", "/service-areas", "/faqs",

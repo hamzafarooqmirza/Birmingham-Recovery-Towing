@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/commercial-vehicle-towing")({
   head: () => ({
-    meta: pageMeta({ title: "Commercial Vehicle Towing | Fast Recovery Pro", description: "Reliable towing for vans, fleet vehicles and business-critical transport, minimising downtime.", path: "/commercial-vehicle-towing", image: IMG.commercialVehicleTowing }),
-    links: [{ rel: "canonical", href: "/commercial-vehicle-towing" }],
+    meta: pageMeta({ title: "Van Recovery Birmingham | Van Breakdown Recovery West Midlands", description: "Fast van recovery across Birmingham and West Midlands. Transit, Sprinter, Luton and all sizes — 24/7. Call Birmingham Recovery & Towing.", path: "/commercial-vehicle-towing", image: IMG.commercialVehicleTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/commercial-vehicle-towing" }],
   }),
   component: CommercialVehicleTowing,
 });
@@ -16,18 +16,18 @@ function CommercialVehicleTowing() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Commercial Vehicle Towing (سحب المركبات التجارية)" hero={IMG.commercialVehicleTowing}
-        description="Downtime costs money. Our commercial towing service gets your van or fleet vehicle moved quickly and professionally, minimising disruption to your business."
-        benefits={["Towing for vans, minibuses and light commercial vehicles", "Fleet account options for repeat business customers", "Fast response to minimise business downtime", "Recovery to your depot, garage or preferred location", "Careful handling of vehicles carrying tools or stock", "Clear invoicing suitable for business accounts"]}
+        eyebrow="Service" title="Van Recovery Birmingham" hero={IMG.commercialVehicleTowing}
+        description="Van broken down in Birmingham or the West Midlands? Birmingham Recovery & Towing recovers all sizes of vans — Ford Transit, Mercedes Sprinter, Luton vans and more — 24/7."
+        benefits={["Recovery for all van sizes — SWB, LWB, Luton, Sprinter", "Fast response across Birmingham and West Midlands", "Recovery to your home, depot, garage or preferred location", "Careful handling of loaded vans and equipment", "Nationwide van recovery across the UK", "24/7 availability including weekends and bank holidays"]}
         why={[
-          { title: "Business-Ready", desc: "We understand that downtime affects your bottom line." },
-          { title: "Fleet Friendly", desc: "Comfortable working with businesses running multiple vehicles." },
-          { title: "Fast Turnaround", desc: "We prioritise getting commercial vehicles moving again quickly." },
+          { title: "All Van Sizes", desc: "From small panel vans to large Luton vans — we've got the right truck." },
+          { title: "Minimise Downtime", desc: "We get your van recovered fast to keep your day moving." },
+          { title: "Nationwide Cover", desc: "Van recovery from Birmingham to anywhere in the UK." },
         ]}
         faqs={[
-          { q: "Do you offer accounts for fleet customers?", a: "Yes, we can arrange fleet account options for regular business customers." },
-          { q: "Can you tow a van full of equipment?", a: "Yes, we take care to secure both the vehicle and its contents." },
-          { q: "How quickly can you respond for a business vehicle?", a: "We prioritise fast response to keep business disruption to a minimum." },
+          { q: "Do you recover Luton vans?", a: "Yes, we can recover Luton box vans and other larger light commercial vehicles." },
+          { q: "Can you recover a loaded van?", a: "Yes, we take care to secure both the vehicle and any contents." },
+          { q: "How fast can you get to me in Birmingham?", a: "Our average response time across Birmingham is around 30 minutes, 24/7." },
         ]}
       />
     </SiteLayout>
