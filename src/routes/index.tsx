@@ -3,6 +3,7 @@ import { SiteLayout } from "@/components/site/Layout";
 import { ServiceCard } from "@/components/site/ServiceCard";
 import { EmergencyCTA } from "@/components/site/EmergencyCTA";
 import { ContactForm } from "@/components/site/ContactForm";
+import { ReviewsCarousel } from "@/components/site/ReviewsCarousel";
 import { SERVICES } from "@/lib/services";
 import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
@@ -122,33 +123,7 @@ function Home() {
 
       <EmergencyCTA />
 
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
-        <h2 className="text-4xl md:text-5xl font-black text-center">What Our Customers Say</h2>
-        <p className="mx-auto mt-3 max-w-2xl text-center text-muted-foreground">Trusted by hundreds of Birmingham & West Midlands drivers — see what they say.</p>
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {[
-            { n: "James T.", l: "Birmingham City Centre", t: "Broke down on the A38 at midnight — they arrived in under 30 minutes. Brilliant service, very professional. Will definitely use again." },
-            { n: "Priya S.", l: "Solihull", t: "Needed a car recovery from the motorway. Fair price, friendly driver and my car was delivered safely. Highly recommend Birmingham Recovery & Towing!" },
-            { n: "Mohammed A.", l: "Erdington", t: "Put the wrong fuel in my van — absolute nightmare. These guys came out fast, sorted it no problem. Lifesavers. Great price too." },
-          ].map((r) => (
-            <div key={r.n} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl">
-              <div className="flex gap-1 text-primary">{Array.from({ length: 5 }).map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}</div>
-              <p className="mt-4 text-sm text-muted-foreground">"{r.t}"</p>
-              <div className="mt-5 text-sm font-semibold">{r.n}<span className="text-muted-foreground"> · {r.l}</span></div>
-            </div>
-          ))}
-        </div>
-        <div className="mt-10 text-center">
-          <a
-            href="https://www.google.com/maps/place/Birmingham+Recovery+%26+Towing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold hover:bg-secondary transition"
-          >
-            <Star className="h-4 w-4 fill-primary text-primary" /> Read all Google Reviews
-          </a>
-        </div>
-      </section>
+      <ReviewsCarousel />
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
         <h2 className="text-4xl md:text-5xl font-black text-center">Our Fleet in Action</h2>
