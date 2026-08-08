@@ -24,7 +24,7 @@ export const IMG = {
   gallery2: "/images/whatsapp-image-2026-08-08-at-11-02-36-pm-1200x1600.webp",
   gallery3: "/images/whatsapp-image-2026-08-08-at-11-02-37-pm-1200x1600.webp",
   gallery4: "/images/whatsapp-image-2026-08-08-at-11-02-38-pm-1200x1600.webp",
-  gallery5: "/images/whatsapp-image-2026-08-08-at-11-02-39-pm-1200x1600.webp",
+  gallery5: "/images/whatsapp-image-2026-08-08-at-11-02-39-pm-1-1200x1600.webp",
   gallery6: "/images/whatsapp-image-2026-08-08-at-11-05-14-pm-1320x992.webp",
 };
 
