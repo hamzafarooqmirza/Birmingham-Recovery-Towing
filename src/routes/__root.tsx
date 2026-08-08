@@ -87,16 +87,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Birmingham Recovery & Towing — 24/7 Car Recovery Birmingham" },
       { property: "og:description", content: "24/7 car recovery, breakdown recovery, accident recovery, vehicle transport and roadside assistance across Birmingham, West Midlands & nationwide UK." },
       { name: "twitter:description", content: "24/7 car recovery, breakdown recovery, accident recovery, vehicle transport and roadside assistance across Birmingham, West Midlands & nationwide UK." },
-      { property: "og:image", content: "/og-image.webp" },
-      { name: "twitter:image", content: "/og-image.webp" },
+      { property: "og:image", content: "/birmingham-recovery-towing-open-graph.webp" },
+      { name: "twitter:image", content: "/birmingham-recovery-towing-open-graph.webp" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", type: "image/webp", href: "/favicon.webp" },
-      { rel: "apple-touch-icon", href: "/favicon.webp" },
+      { rel: "icon", type: "image/webp", href: "/birmingham-recovery-towing-site-icon.webp" },
+      { rel: "apple-touch-icon", href: "/birmingham-recovery-towing-site-icon.webp" },
     ],
     scripts: [
       {
