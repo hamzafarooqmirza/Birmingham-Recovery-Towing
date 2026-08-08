@@ -128,7 +128,7 @@ function Home() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-20">
         <h2 className="text-4xl md:text-5xl font-black text-center">Our Fleet in Action</h2>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
-          {[IMG.hero, IMG.roadsideAssistance, IMG.carTowing, IMG.carAndTowingVan, IMG.breakdownRecoveryAlt, IMG.emergencyCarRecovery].map((src, i) => (
+          {[IMG.gallery1, IMG.gallery2, IMG.gallery3, IMG.gallery4, IMG.gallery5, IMG.gallery6].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-2xl border border-border aspect-square">
               <img src={src} alt={`Birmingham Recovery & Towing fleet photo ${i + 1}`} loading="lazy" className="h-full w-full object-cover transition hover:scale-105 duration-700" />
             </div>
