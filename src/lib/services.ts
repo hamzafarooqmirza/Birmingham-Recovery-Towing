@@ -11,7 +11,7 @@ export const SERVICES = [
   { slug: "/jump-start", title: "Jump Start", image: IMG.carAndTowingVan, desc: "Flat battery? Our mobile team will jump-start your vehicle and get you moving within minutes." },
   { slug: "/battery-replacement", title: "Flat Battery Assistance", image: IMG.breakdownRecoveryAlt, desc: "We diagnose and assist with flat batteries on the spot — jump starts and roadside battery support." },
   { slug: "/mobile-tyre-service", title: "Fuel Delivery", image: IMG.roadsideAssistance, desc: "Run out of fuel? We'll deliver enough to get you to the nearest station, fast." },
-  { slug: "/vehicle-storage", title: "Wrong Fuel Recovery", image: IMG.carTowing, desc: "Misfuelled your vehicle? Don't start it — call us immediately for professional wrong-fuel recovery." },
+  { slug: "/vehicle-storage", title: "Wrong Fuel Recovery", image: IMG.wrongFuelRecovery, desc: "Misfuelled your vehicle? Don't start it — call us immediately for professional wrong-fuel recovery." },
   { slug: "/desert-offroad-recovery", title: "Vehicle Winching", image: IMG.desertOffroadRecovery, desc: "Stuck in mud, a ditch or off-road? Our winch-equipped trucks will pull you out safely." },
   { slug: "/recovery-to-dealership", title: "Auction Vehicle Collection", image: IMG.recoveryToDealership, desc: "We collect vehicles from auctions across the UK and deliver them safely to your door." },
   { slug: "/recovery-to-garage", title: "Trade Vehicle Delivery", image: IMG.recoveryToGarage, desc: "Reliable trade vehicle delivery for dealerships, garages and motor traders nationwide." },
