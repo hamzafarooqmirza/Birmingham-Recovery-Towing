@@ -14,11 +14,39 @@ export const Route = createFileRoute("/gallery")({
 
 function GalleryPage() {
   const images = [
-    IMG.hero, IMG.roadsideAssistance, IMG.carTowing, IMG.carAndTowingVan,
-    IMG.emergencyCarRecovery, IMG.vehicleTowingService, IMG.breakdownRecovery, IMG.breakdownRecoveryAlt,
-    IMG.accidentRecovery, IMG.flatbedTowing, IMG.luxurySportsCarTransport, IMG.suv4x4Recovery,
-    IMG.recoveryToGarage, IMG.recoveryToMechanic, IMG.recoveryToDealership, IMG.luxuryExoticCarTowing,
-    IMG.desertOffroadRecovery, IMG.heavyDutyTruckTowing, IMG.commercialVehicleTowing,
+    // Real business photos
+    "/images/whatsapp-image-2026-08-08-at-11-02-35-pm-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-36-pm-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-36-pm-1-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-36-pm-2-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-37-pm-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-37-pm-1-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-37-pm-2-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-38-pm-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-38-pm-1-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-38-pm-2-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-39-pm-1-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-39-pm-1600x1200.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-02-40-pm-1200x1600.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-05-14-pm-1-1275x1530.webp",
+    "/images/whatsapp-image-2026-08-08-at-11-05-14-pm-1320x992.webp",
+    // Professional service images
+    "/images/breakdown-recovery-for-birmingham-website-1448x1086.webp",
+    "/images/breakdown-recovery-blue-sedan-on-highway-tow-ramp-1448x1086.webp",
+    "/images/accident-recovery-image-in-birmingham-1448x1086.webp",
+    "/images/wrecked-blue-sedan-by-the-roadside-1536x1024.webp",
+    "/images/car-towing-highway-recovery-with-blue-hatchback-1459x1078.webp",
+    "/images/vehicle-transport-1535x1024.webp",
+    "/images/vehicle-winching-1535x1024.webp",
+    "/images/van-recovery-service-1448x1086.webp",
+    "/images/trailer-transport-1536x1024.webp",
+    "/images/long-distance-vehicle-transport-1536x1024.webp",
+    "/images/trade-vehicle-delivery-1466x1073.webp",
+    "/images/auction-vehicle-collection-1536x1024.webp",
+    "/images/fuel-delivery-2-1536x1024.webp",
+    "/images/portable-jump-starter-in-engine-bay-1448x1086.webp",
+    "/images/flat-battery-assistance-1448x1086.webp",
+    "/images/wrong-fuel-recovery-1672x941.webp",
   ];
   return (
     <SiteLayout>
