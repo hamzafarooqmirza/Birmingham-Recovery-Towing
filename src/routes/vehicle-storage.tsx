@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/vehicle-storage")({
   head: () => ({
-    meta: pageMeta({ title: "Wrong Fuel Recovery Birmingham | Wrong Fuel Draining West Midlands", description: "Put the wrong fuel in your car in Birmingham? Don't start the engine — call Birmingham Recovery & Towing 24/7 for fast, professional wrong fuel recovery and draining.", path: "/vehicle-storage", image: IMG.carTowing }),
+    meta: pageMeta({ title: "Wrong Fuel Recovery Birmingham | Wrong Fuel Draining West Midlands", description: "Put the wrong fuel in your car in Birmingham? Don't start the engine — call Birmingham Recovery & Towing 24/7 for fast, professional wrong fuel recovery and draining.", path: "/vehicle-storage", image: IMG.wrongFuelRecovery }),
     links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-storage" }],
   }),
   component: VehicleStorage,
@@ -16,7 +16,7 @@ function VehicleStorage() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Wrong Fuel Recovery Birmingham" hero={IMG.carTowing}
+        eyebrow="Service" title="Wrong Fuel Recovery Birmingham" hero={IMG.wrongFuelRecovery}
         description="Put the wrong fuel in your vehicle in Birmingham? Stop — do NOT start the engine. Birmingham Recovery & Towing provides fast, professional wrong fuel recovery and tank draining across Birmingham and West Midlands, 24/7."
         benefits={["Wrong fuel diagnosis and draining on-site", "Petrol in diesel and diesel in petrol covered", "Fast response — average 30 minutes in Birmingham", "Flush and refuel with the correct fuel", "Available 24/7 including weekends and bank holidays", "Cars, vans and commercial vehicles covered"]}
         why={[
