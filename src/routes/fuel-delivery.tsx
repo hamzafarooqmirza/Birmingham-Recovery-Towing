@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/mobile-tyre-service")({
+export const Route = createFileRoute("/fuel-delivery")({
   head: () => ({
-    meta: pageMeta({ title: "Fuel Delivery Birmingham | Emergency Fuel Delivery West Midlands", description: "Run out of fuel in Birmingham? Birmingham Recovery & Towing delivers emergency fuel 24/7 to get you moving. Fast, affordable fuel delivery service.", path: "/mobile-tyre-service", image: IMG.roadsideAssistance }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/mobile-tyre-service" }],
+    meta: pageMeta({ title: "Fuel Delivery Birmingham | Emergency Fuel Delivery West Midlands", description: "Run out of fuel in Birmingham? Birmingham Recovery & Towing delivers emergency fuel 24/7 to get you moving. Fast, affordable fuel delivery service.", path: "/fuel-delivery", image: IMG.roadsideAssistance }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/fuel-delivery" }],
   }),
-  component: MobileTyre,
+  component: FuelDelivery,
 });
 
-function MobileTyre() {
+function FuelDelivery() {
   return (
     <SiteLayout>
       <ServicePageTemplate

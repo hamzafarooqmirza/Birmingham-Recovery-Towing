@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/commercial-vehicle-towing")({
+export const Route = createFileRoute("/van-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Van Recovery Birmingham | Van Breakdown Recovery West Midlands", description: "Fast van recovery across Birmingham and West Midlands. Transit, Sprinter, Luton and all sizes — 24/7. Call Birmingham Recovery & Towing.", path: "/commercial-vehicle-towing", image: IMG.commercialVehicleTowing }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/commercial-vehicle-towing" }],
+    meta: pageMeta({ title: "Van Recovery Birmingham | Van Breakdown Recovery West Midlands", description: "Fast van recovery across Birmingham and West Midlands. Transit, Sprinter, Luton and all sizes — 24/7. Call Birmingham Recovery & Towing.", path: "/van-recovery", image: IMG.commercialVehicleTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/van-recovery" }],
   }),
-  component: CommercialVehicleTowing,
+  component: VanRecovery,
 });
 
-function CommercialVehicleTowing() {
+function VanRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate

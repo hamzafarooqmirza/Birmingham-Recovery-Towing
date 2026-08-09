@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/heavy-duty-truck-towing")({
+export const Route = createFileRoute("/long-distance-vehicle-transport")({
   head: () => ({
-    meta: pageMeta({ title: "Long Distance Vehicle Transport Birmingham | UK Vehicle Transport", description: "Long distance vehicle transport from Birmingham to anywhere in the UK. Birmingham Recovery & Towing offers safe, reliable nationwide vehicle transport for cars, vans and light commercials.", path: "/heavy-duty-truck-towing", image: IMG.heavyDutyTruckTowing }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/heavy-duty-truck-towing" }],
+    meta: pageMeta({ title: "Long Distance Vehicle Transport Birmingham | UK Vehicle Transport", description: "Long distance vehicle transport from Birmingham to anywhere in the UK. Birmingham Recovery & Towing offers safe, reliable nationwide vehicle transport for cars, vans and light commercials.", path: "/long-distance-vehicle-transport", image: IMG.heavyDutyTruckTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/long-distance-vehicle-transport" }],
   }),
-  component: HeavyDutyTruckTowing,
+  component: LongDistanceVehicleTransport,
 });
 
-function HeavyDutyTruckTowing() {
+function LongDistanceVehicleTransport() {
   return (
     <SiteLayout>
       <ServicePageTemplate

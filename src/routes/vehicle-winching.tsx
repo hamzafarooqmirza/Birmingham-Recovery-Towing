@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/desert-offroad-recovery")({
+export const Route = createFileRoute("/vehicle-winching")({
   head: () => ({
-    meta: pageMeta({ title: "Vehicle Winching Birmingham | Winch Recovery West Midlands", description: "Vehicle stuck in mud, a ditch or inaccessible ground in Birmingham? Birmingham Recovery & Towing provides professional winch recovery 24/7 across West Midlands.", path: "/desert-offroad-recovery", image: IMG.desertOffroadRecovery }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/desert-offroad-recovery" }],
+    meta: pageMeta({ title: "Vehicle Winching Birmingham | Winch Recovery West Midlands", description: "Vehicle stuck in mud, a ditch or inaccessible ground in Birmingham? Birmingham Recovery & Towing provides professional winch recovery 24/7 across West Midlands.", path: "/vehicle-winching", image: IMG.desertOffroadRecovery }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-winching" }],
   }),
-  component: DesertOffroadRecovery,
+  component: VehicleWinching,
 });
 
-function DesertOffroadRecovery() {
+function VehicleWinching() {
   return (
     <SiteLayout>
       <ServicePageTemplate

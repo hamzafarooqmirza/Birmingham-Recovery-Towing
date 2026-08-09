@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/vehicle-recovery")({
+export const Route = createFileRoute("/car-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Car Recovery Birmingham | 24/7 Car Recovery West Midlands", description: "Professional 24/7 car recovery across Birmingham and West Midlands. Fast response, fixed fair pricing, fully insured. Call Birmingham Recovery & Towing now.", path: "/vehicle-recovery", image: IMG.emergencyCarRecovery }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-recovery" }],
+    meta: pageMeta({ title: "Car Recovery Birmingham | 24/7 Car Recovery West Midlands", description: "Professional 24/7 car recovery across Birmingham and West Midlands. Fast response, fixed fair pricing, fully insured. Call Birmingham Recovery & Towing now.", path: "/car-recovery", image: IMG.emergencyCarRecovery }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/car-recovery" }],
   }),
-  component: VehicleRecovery,
+  component: CarRecovery,
 });
 
-function VehicleRecovery() {
+function CarRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate

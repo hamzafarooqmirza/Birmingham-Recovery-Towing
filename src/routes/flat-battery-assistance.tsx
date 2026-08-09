@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/battery-replacement")({
+export const Route = createFileRoute("/flat-battery-assistance")({
   head: () => ({
-    meta: pageMeta({ title: "Flat Battery Assistance Birmingham | Battery Help West Midlands", description: "Flat battery in Birmingham? Birmingham Recovery & Towing provides 24/7 battery assistance including jump starts and roadside battery support across West Midlands.", path: "/battery-replacement", image: IMG.breakdownRecoveryAlt }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/battery-replacement" }],
+    meta: pageMeta({ title: "Flat Battery Assistance Birmingham | Battery Help West Midlands", description: "Flat battery in Birmingham? Birmingham Recovery & Towing provides 24/7 battery assistance including jump starts and roadside battery support across West Midlands.", path: "/flat-battery-assistance", image: IMG.breakdownRecoveryAlt }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/flat-battery-assistance" }],
   }),
-  component: BatteryReplacement,
+  component: FlatBatteryAssistance,
 });
 
-function BatteryReplacement() {
+function FlatBatteryAssistance() {
   return (
     <SiteLayout>
       <ServicePageTemplate

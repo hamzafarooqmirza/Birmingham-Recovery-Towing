@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/recovery-to-garage")({
+export const Route = createFileRoute("/trade-vehicle-delivery")({
   head: () => ({
-    meta: pageMeta({ title: "Trade Vehicle Delivery Birmingham | Trade Car Transport West Midlands", description: "Reliable trade vehicle delivery across Birmingham, West Midlands and the UK. Birmingham Recovery & Towing collects and delivers vehicles for dealers, traders and fleet operators.", path: "/recovery-to-garage", image: IMG.recoveryToGarage }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/recovery-to-garage" }],
+    meta: pageMeta({ title: "Trade Vehicle Delivery Birmingham | Trade Car Transport West Midlands", description: "Reliable trade vehicle delivery across Birmingham, West Midlands and the UK. Birmingham Recovery & Towing collects and delivers vehicles for dealers, traders and fleet operators.", path: "/trade-vehicle-delivery", image: IMG.recoveryToGarage }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/trade-vehicle-delivery" }],
   }),
-  component: RecoveryToGarage,
+  component: TradeVehicleDelivery,
 });
 
-function RecoveryToGarage() {
+function TradeVehicleDelivery() {
   return (
     <SiteLayout>
       <ServicePageTemplate

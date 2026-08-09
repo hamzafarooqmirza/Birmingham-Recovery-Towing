@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/flatbed-towing")({
+export const Route = createFileRoute("/trailer-transport")({
   head: () => ({
-    meta: pageMeta({ title: "Trailer Transport Birmingham | Trailer Recovery West Midlands", description: "Safe trailer transport and recovery across Birmingham, West Midlands and nationwide UK. All trailer sizes. Birmingham Recovery & Towing — call 24/7.", path: "/flatbed-towing", image: IMG.flatbedTowing }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/flatbed-towing" }],
+    meta: pageMeta({ title: "Trailer Transport Birmingham | Trailer Recovery West Midlands", description: "Safe trailer transport and recovery across Birmingham, West Midlands and nationwide UK. All trailer sizes. Birmingham Recovery & Towing — call 24/7.", path: "/trailer-transport", image: IMG.flatbedTowing }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/trailer-transport" }],
   }),
-  component: FlatbedTowing,
+  component: TrailerTransport,
 });
 
-function FlatbedTowing() {
+function TrailerTransport() {
   return (
     <SiteLayout>
       <ServicePageTemplate
