@@ -5,6 +5,7 @@ export const IMG = {
   vehicleTowingService: "/images/vehicle-transport-1535x1024.webp",
   breakdownRecovery: "/images/breakdown-recovery-blue-sedan-on-highway-tow-ramp-1448x1086.webp",
   breakdownRecoveryAlt: "/images/breakdown-recovery-for-birmingham-website-1448x1086.webp",
+  flatBatteryAssistance: "/images/flat-battery-assistance-1448x1086.webp",
   accidentRecovery: "/images/accident-recovery-image-in-birmingham-1448x1086.webp",
   flatbedTowing: "/images/trailer-transport-1536x1024.webp",
   luxurySportsCarTransport: "/images/long-distance-vehicle-transport-1536x1024.webp",

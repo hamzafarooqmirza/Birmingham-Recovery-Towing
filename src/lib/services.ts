@@ -9,7 +9,7 @@ export const SERVICES = [
   { slug: "/trailer-transport", title: "Trailer Transport", image: IMG.flatbedTowing, desc: "We transport trailers of all sizes safely and securely to any location across the UK." },
   { slug: "/car-trailer-recovery", title: "Car Trailer Recovery & Transport", image: IMG.luxurySportsCarTransport, desc: "Specialist recovery and transport for vehicles on trailers — handled with care and precision." },
   { slug: "/jump-start", title: "Jump Start", image: IMG.carAndTowingVan, desc: "Flat battery? Our mobile team will jump-start your vehicle and get you moving within minutes." },
-  { slug: "/flat-battery-assistance", title: "Flat Battery Assistance", image: IMG.breakdownRecoveryAlt, desc: "We diagnose and assist with flat batteries on the spot — jump starts and roadside battery support." },
+  { slug: "/flat-battery-assistance", title: "Flat Battery Assistance", image: IMG.flatBatteryAssistance, desc: "We diagnose and assist with flat batteries on the spot — jump starts and roadside battery support." },
   { slug: "/fuel-delivery", title: "Fuel Delivery", image: IMG.roadsideAssistance, desc: "Run out of fuel? We'll deliver enough to get you to the nearest station, fast." },
   { slug: "/wrong-fuel-recovery", title: "Wrong Fuel Recovery", image: IMG.wrongFuelRecovery, desc: "Misfuelled your vehicle? Don't start it — call us immediately for professional wrong-fuel recovery." },
   { slug: "/vehicle-winching", title: "Vehicle Winching", image: IMG.desertOffroadRecovery, desc: "Stuck in mud, a ditch or off-road? Our winch-equipped trucks will pull you out safely." },
