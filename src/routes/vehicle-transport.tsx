@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/vehicle-towing-service")({
+export const Route = createFileRoute("/vehicle-transport")({
   head: () => ({
-    meta: pageMeta({ title: "Vehicle Transport Birmingham | Car & Vehicle Transport West Midlands", description: "Safe vehicle transport in Birmingham, West Midlands and nationwide UK. Flatbed transport for all vehicles — fixed-fee quotes. Birmingham Recovery & Towing.", path: "/vehicle-towing-service", image: IMG.vehicleTowingService }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-towing-service" }],
+    meta: pageMeta({ title: "Vehicle Transport Birmingham | Car & Vehicle Transport West Midlands", description: "Safe vehicle transport in Birmingham, West Midlands and nationwide UK. Flatbed transport for all vehicles — fixed-fee quotes. Birmingham Recovery & Towing.", path: "/vehicle-transport", image: IMG.vehicleTowingService }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-transport" }],
   }),
-  component: VehicleTowingService,
+  component: VehicleTransport,
 });
 
-function VehicleTowingService() {
+function VehicleTransport() {
   return (
     <SiteLayout>
       <ServicePageTemplate

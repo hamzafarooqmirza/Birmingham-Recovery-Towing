@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/vehicle-storage")({
+export const Route = createFileRoute("/wrong-fuel-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Wrong Fuel Recovery Birmingham | Wrong Fuel Draining West Midlands", description: "Put the wrong fuel in your car in Birmingham? Don't start the engine — call Birmingham Recovery & Towing 24/7 for fast, professional wrong fuel recovery and draining.", path: "/vehicle-storage", image: IMG.wrongFuelRecovery }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/vehicle-storage" }],
+    meta: pageMeta({ title: "Wrong Fuel Recovery Birmingham | Wrong Fuel Draining West Midlands", description: "Put the wrong fuel in your car in Birmingham? Don't start the engine — call Birmingham Recovery & Towing 24/7 for fast, professional wrong fuel recovery and draining.", path: "/wrong-fuel-recovery", image: IMG.wrongFuelRecovery }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/wrong-fuel-recovery" }],
   }),
-  component: VehicleStorage,
+  component: WrongFuelRecovery,
 });
 
-function VehicleStorage() {
+function WrongFuelRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate

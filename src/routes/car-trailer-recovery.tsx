@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/luxury-sports-car-transport")({
+export const Route = createFileRoute("/car-trailer-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Car Trailer Recovery & Transport Birmingham | Trailer Recovery West Midlands", description: "Specialist car trailer recovery and transport in Birmingham and West Midlands. Safe, secure handling for vehicles on trailers. Call 24/7.", path: "/luxury-sports-car-transport", image: IMG.luxurySportsCarTransport }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/luxury-sports-car-transport" }],
+    meta: pageMeta({ title: "Car Trailer Recovery & Transport Birmingham | Trailer Recovery West Midlands", description: "Specialist car trailer recovery and transport in Birmingham and West Midlands. Safe, secure handling for vehicles on trailers. Call 24/7.", path: "/car-trailer-recovery", image: IMG.luxurySportsCarTransport }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/car-trailer-recovery" }],
   }),
-  component: LuxurySportsCarTransport,
+  component: CarTrailerRecovery,
 });
 
-function LuxurySportsCarTransport() {
+function CarTrailerRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate

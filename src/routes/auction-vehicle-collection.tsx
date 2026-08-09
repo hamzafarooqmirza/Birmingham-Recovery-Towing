@@ -4,15 +4,15 @@ import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { IMG } from "@/lib/assets";
 import { pageMeta } from "@/lib/seo";
 
-export const Route = createFileRoute("/recovery-to-dealership")({
+export const Route = createFileRoute("/auction-vehicle-collection")({
   head: () => ({
-    meta: pageMeta({ title: "Auction Vehicle Collection Birmingham | Auction Car Transport West Midlands", description: "Collecting a vehicle from auction in Birmingham or West Midlands? Birmingham Recovery & Towing provides reliable auction vehicle collection and transport nationwide.", path: "/recovery-to-dealership", image: IMG.recoveryToDealership }),
-    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/recovery-to-dealership" }],
+    meta: pageMeta({ title: "Auction Vehicle Collection Birmingham | Auction Car Transport West Midlands", description: "Collecting a vehicle from auction in Birmingham or West Midlands? Birmingham Recovery & Towing provides reliable auction vehicle collection and transport nationwide.", path: "/auction-vehicle-collection", image: IMG.recoveryToDealership }),
+    links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/auction-vehicle-collection" }],
   }),
-  component: RecoveryToDealership,
+  component: AuctionVehicleCollection,
 });
 
-function RecoveryToDealership() {
+function AuctionVehicleCollection() {
   return (
     <SiteLayout>
       <ServicePageTemplate
