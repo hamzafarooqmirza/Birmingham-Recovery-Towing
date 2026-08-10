@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/car-recovery")({
   head: () => ({
-    meta: pageMeta({ title: "Car Recovery Birmingham | 24/7 Car Recovery West Midlands", description: "Professional 24/7 car recovery across Birmingham and West Midlands. Fast response, fixed fair pricing, fully insured. Call Birmingham Recovery & Towing now.", path: "/car-recovery", image: IMG.emergencyCarRecovery }),
+    meta: pageMeta({ title: "Car Recovery Birmingham | 24/7 Car Recovery West Midlands", description: "Professional 24/7 car recovery across Birmingham and West Midlands. Fast response, fixed fair pricing, fully insured. Call Birmingham Recovery & Towing now.", path: "/car-recovery", image: IMG.realRecoveryJob2 }),
     links: [{ rel: "canonical", href: "https://247recoverybirmingham.co.uk/car-recovery" }],
   }),
   component: CarRecovery,
@@ -16,7 +16,7 @@ function CarRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Car Recovery Birmingham" hero={IMG.emergencyCarRecovery}
+        eyebrow="Service" title="Car Recovery Birmingham" hero={IMG.realRecoveryJob2}
         description="Whether you've broken down, been in an accident or need a vehicle transported, Birmingham Recovery & Towing provides fast, professional car recovery across Birmingham, West Midlands and nationwide UK."
         benefits={["24/7 emergency car recovery Birmingham", "Flatbed trucks for safe, damage-free loading", "All car types — hatchbacks, saloons, estates, sports cars", "Accident recovery and insurance work", "Nationwide car transport across the UK", "Fully insured, fixed fair pricing"]}
         why={[
