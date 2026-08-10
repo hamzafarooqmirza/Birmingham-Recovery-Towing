@@ -31,7 +31,7 @@ function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 py-10 md:py-14">
-          <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary">
+          <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-white">
             <span className="h-2 w-2 rounded-full bg-primary animate-pulse" /> Available 24/7 · Birmingham & Nationwide
           </span>
           <h1 className="mt-6 text-5xl md:text-7xl font-black tracking-tight leading-[1.05]">
