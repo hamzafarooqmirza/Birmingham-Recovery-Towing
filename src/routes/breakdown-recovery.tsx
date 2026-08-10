@@ -18,7 +18,7 @@ function BreakdownRecovery() {
       <ServicePageTemplate
         eyebrow="Service" title="24/7 Breakdown Recovery Birmingham" hero={IMG.realRecoveryJob1}
         description="Breakdowns never happen at a convenient time. Birmingham Recovery & Towing dispatches fast across Birmingham, West Midlands and surrounding areas — 24 hours a day, 7 days a week."
-        benefits={["Roadside diagnosis and assistance where possible", "Recovery to your home, garage or a safe location", "Space for driver and passengers in the cab", "Support for mechanical, electrical and battery-related breakdowns", "Available on motorways, A-roads, city streets and rural lanes", "Rapid response — average 30 minutes across Birmingham"]}
+        benefits={["Roadside diagnosis and assistance where possible", "Recovery to your home, garage or a safe location", "Space for driver and passengers in the cab", "Support for mechanical, electrical and battery-related breakdowns", "Available on motorways, A-roads, city streets and rural lanes", "Rapid response across Birmingham — we dispatch immediately"]}
         why={[
           { title: "Reassuring Support", desc: "We keep you informed from the first call until you're safely home." },
           { title: "Anywhere in Birmingham", desc: "Motorway hard shoulder or quiet side street — we'll find you." },

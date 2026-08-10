@@ -27,7 +27,7 @@ function VanRecovery() {
         faqs={[
           { q: "Do you recover Luton vans?", a: "Yes, we can recover Luton box vans and other larger light commercial vehicles." },
           { q: "Can you recover a loaded van?", a: "Yes, we take care to secure both the vehicle and any contents." },
-          { q: "How fast can you get to me in Birmingham?", a: "Our average response time across Birmingham is around 30 minutes, 24/7." },
+          { q: "How fast can you get to me in Birmingham?", a: "We dispatch immediately and aim to reach you as fast as possible across Birmingham, 24/7." },
         ]}
       />
     </SiteLayout>

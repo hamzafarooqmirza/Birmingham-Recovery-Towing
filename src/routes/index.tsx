@@ -108,7 +108,7 @@ function Home() {
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
             { n: "01", i: PhoneCall, t: "Call or WhatsApp", d: "Phone or WhatsApp our 24/7 Birmingham line and tell us your location." },
-            { n: "02", i: Truck, t: "We Dispatch Fast", d: "The nearest truck is dispatched immediately — average 30-minute response." },
+            { n: "02", i: Truck, t: "We Dispatch Fast", d: "The nearest available truck is dispatched immediately to reach you as fast as possible." },
             { n: "03", i: CheckCircle2, t: "Problem Solved", d: "We recover your vehicle or transport it safely to any UK destination." },
           ].map((s) => (
             <div key={s.n} className="relative rounded-3xl border border-border bg-card/60 p-8 backdrop-blur-xl">

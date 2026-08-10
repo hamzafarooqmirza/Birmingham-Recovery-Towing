@@ -18,7 +18,7 @@ function FuelDelivery() {
       <ServicePageTemplate
         eyebrow="Service" title="Fuel Delivery Birmingham" hero={IMG.roadsideAssistance}
         description="Run out of fuel in Birmingham or the West Midlands? Don't risk running your tank dry and damaging your engine. Birmingham Recovery & Towing delivers emergency fuel to your location, fast — 24/7."
-        benefits={["Emergency fuel delivery across Birmingham and West Midlands", "Petrol and diesel delivery available", "Fast response — average 30 minutes", "Enough fuel delivered to get you to the nearest station safely", "24/7 availability including nights, weekends and bank holidays", "Cars, vans and light commercial vehicles covered"]}
+        benefits={["Emergency fuel delivery across Birmingham and West Midlands", "Petrol and diesel delivery available", "Fast response — we dispatch immediately to reach you as soon as possible", "Enough fuel delivered to get you to the nearest station safely", "24/7 availability including nights, weekends and bank holidays", "Cars, vans and light commercial vehicles covered"]}
         why={[
           { title: "Fast Delivery", desc: "We get fuel to you quickly so you're not stranded for long." },
           { title: "Petrol & Diesel", desc: "We carry both petrol and diesel for all vehicle types." },

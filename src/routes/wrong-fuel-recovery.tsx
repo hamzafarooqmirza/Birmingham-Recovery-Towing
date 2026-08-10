@@ -18,7 +18,7 @@ function WrongFuelRecovery() {
       <ServicePageTemplate
         eyebrow="Service" title="Wrong Fuel Recovery Birmingham" hero={IMG.wrongFuelRecovery}
         description="Put the wrong fuel in your vehicle in Birmingham? Stop — do NOT start the engine. Birmingham Recovery & Towing provides fast, professional wrong fuel recovery and tank draining across Birmingham and West Midlands, 24/7."
-        benefits={["Wrong fuel diagnosis and draining on-site", "Petrol in diesel and diesel in petrol covered", "Fast response — average 30 minutes in Birmingham", "Flush and refuel with the correct fuel", "Available 24/7 including weekends and bank holidays", "Cars, vans and commercial vehicles covered"]}
+        benefits={["Wrong fuel diagnosis and draining on-site", "Petrol in diesel and diesel in petrol covered", "Fast response across Birmingham — we come to you urgently", "Flush and refuel with the correct fuel", "Available 24/7 including weekends and bank holidays", "Cars, vans and commercial vehicles covered"]}
         why={[
           { title: "Don't Start the Engine", desc: "The moment you realise, call us — do not start or move the vehicle." },
           { title: "Professional Draining", desc: "We safely drain and flush the tank with specialist equipment." },
