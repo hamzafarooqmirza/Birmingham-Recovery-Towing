@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, MessageCircle, Heart } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="mt-24 border-t border-border/60 bg-card/30">
+    <footer className="mt-8 md:mt-24 border-t border-border/60 bg-card/30">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div className="space-y-4">
           <img src={IMG.logo} alt={`${BRAND} logo`} className="h-14 w-auto" />

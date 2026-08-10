@@ -139,7 +139,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="contact" className="mx-auto max-w-7xl px-4 sm:px-6 py-20 grid gap-10 lg:grid-cols-2">
+      <section id="contact" className="mx-auto max-w-7xl px-4 sm:px-6 pt-10 pb-8 md:py-20 grid gap-10 lg:grid-cols-2">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Get in touch</p>
           <h2 className="mt-3 text-4xl md:text-5xl font-black">Need help right now?</h2>
