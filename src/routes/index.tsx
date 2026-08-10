@@ -53,8 +53,8 @@ function Home() {
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl">
             {[
               { k: "24/7", v: "Always Open" },
-              { k: "30min", v: "Avg Response" },
-              { k: "5000+", v: "Jobs Completed" },
+              { k: "Fast", v: "Response Time" },
+              { k: "50+", v: "Reviews" },
               { k: "5★", v: "Google Rated" },
             ].map((s) => (
               <div key={s.k} className="rounded-2xl border border-border bg-card/60 px-4 py-3 backdrop-blur-xl">
@@ -88,11 +88,11 @@ function Home() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
             { i: Clock, t: "Available 24/7", d: "Day or night, weekend or holiday — we're always one call away." },
-            { i: Zap, t: "Fast Response", d: "Average 30-minute response across Birmingham and the West Midlands." },
+            { i: Zap, t: "Fast Response", d: "We aim to reach you as quickly as possible across Birmingham and the West Midlands — day or night." },
             { i: Users, t: "Experienced Team", d: "Trained operators who handle your vehicle with the utmost care." },
             { i: Banknote, t: "Affordable Prices", d: "Fair, transparent pricing with no hidden fees — ever." },
             { i: ShieldCheck, t: "Fully Insured", d: "Fully insured recovery fleet with a trusted track record across the UK." },
-            { i: Star, t: "5-Star Rated", d: "Hundreds of five-star Google reviews from satisfied Birmingham customers." },
+            { i: Star, t: "5-Star Rated", d: "Over 40 five-star Google reviews from real customers across Birmingham and West Midlands." },
           ].map((w) => (
             <div key={w.t} className="rounded-3xl border border-border bg-card/60 p-7 backdrop-blur-xl transition hover:border-primary/50">
               <div className="grid h-12 w-12 place-items-center rounded-2xl bg-primary/15 text-primary"><w.i className="h-6 w-6" /></div>
@@ -108,7 +108,7 @@ function Home() {
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
             { n: "01", i: PhoneCall, t: "Call or WhatsApp", d: "Phone or WhatsApp our 24/7 Birmingham line and tell us your location." },
-            { n: "02", i: Truck, t: "We Dispatch Fast", d: "The nearest truck is dispatched immediately — average 30-minute response." },
+            { n: "02", i: Truck, t: "We Dispatch Fast", d: "The nearest available truck is dispatched immediately to reach you as fast as possible." },
             { n: "03", i: CheckCircle2, t: "Problem Solved", d: "We recover your vehicle or transport it safely to any UK destination." },
           ].map((s) => (
             <div key={s.n} className="relative rounded-3xl border border-border bg-card/60 p-8 backdrop-blur-xl">
@@ -147,7 +147,7 @@ function Home() {
           <div className="mt-8 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
             <iframe
               title="Birmingham Recovery & Towing — Service Area Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645131.5942716541!2d-2.602306876475857!3d52.174881679598826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd3b44a51e71%3A0x34d24ee56e000d72!2sBirmingham%20Recovery%20%26%20Towing!5e1!3m2!1sen!2s!4v1786126694835!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645131.5942716541!2d-2.602306876475857!3d52.174881679598826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd3b44a51e71%3A0x34d24ee56e000d72!2sBirmingham%20Recovery%20%26%20Towing!5e1!3m2!1sen!2s!4v1786383356464!5m2!1sen!2s"
               className="h-full w-full"
               style={{ border: 0 }}
               allowFullScreen

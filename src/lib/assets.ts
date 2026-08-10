@@ -21,6 +21,9 @@ export const IMG = {
   carTowing: "/images/car-towing-highway-recovery-with-blue-hatchback-1459x1078.webp",
   carAndTowingVan: "/images/portable-jump-starter-in-engine-bay-1448x1086.webp",
   wrongFuelRecovery: "/images/wrong-fuel-recovery-1672x941.webp",
+  // Real business photos (landscape, suitable as hero/service images)
+  realRecoveryJob1: "/images/whatsapp-image-2026-08-08-at-11-02-39-pm-1600x1200.webp",
+  realRecoveryJob2: "/images/whatsapp-image-2026-08-08-at-11-05-14-pm-1320x992.webp",
   gallery1: "/images/whatsapp-image-2026-08-08-at-11-02-35-pm-1200x1600.webp",
   gallery2: "/images/whatsapp-image-2026-08-08-at-11-02-36-pm-1200x1600.webp",
   gallery3: "/images/whatsapp-image-2026-08-08-at-11-02-37-pm-1200x1600.webp",

@@ -22,7 +22,7 @@ function JumpStart() {
         why={[
           { title: "Right Equipment", desc: "Heavy-duty boosters that start cars, vans and all modern vehicles." },
           { title: "Safe for Modern Cars", desc: "Voltage-protected equipment to prevent ECU and electronics damage." },
-          { title: "Fast Response", desc: "Average 30-minute response across Birmingham and West Midlands." },
+          { title: "Fast Response", desc: "We respond quickly across Birmingham and West Midlands — day or night, 24/7." },
         ]}
         faqs={[
           { q: "My car won't start in Birmingham — can you jump start it?", a: "Yes — call us on +44 7392 429947 and we'll dispatch immediately." },

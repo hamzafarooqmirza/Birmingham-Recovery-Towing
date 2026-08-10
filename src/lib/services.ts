@@ -1,8 +1,8 @@
 import { IMG } from "./assets";
 
 export const SERVICES = [
-  { slug: "/breakdown-recovery", title: "24/7 Breakdown Recovery", image: IMG.breakdownRecovery, desc: "Stranded anywhere in Birmingham or the West Midlands? We dispatch fast — day or night, 365 days a year." },
-  { slug: "/car-recovery", title: "Car Recovery", image: IMG.emergencyCarRecovery, desc: "Safe, damage-free car recovery across Birmingham, the West Midlands and nationwide UK." },
+  { slug: "/breakdown-recovery", title: "24/7 Breakdown Recovery", image: IMG.realRecoveryJob1, desc: "Stranded anywhere in Birmingham or the West Midlands? We dispatch fast — day or night, 365 days a year." },
+  { slug: "/car-recovery", title: "Car Recovery", image: IMG.realRecoveryJob2, desc: "Safe, damage-free car recovery across Birmingham, the West Midlands and nationwide UK." },
   { slug: "/van-recovery", title: "Van Recovery", image: IMG.commercialVehicleTowing, desc: "Van broken down? We recover all sizes of vans — transit, luton, Sprinter and more." },
   { slug: "/accident-recovery", title: "Accident Recovery", image: IMG.accidentRecovery, desc: "Professional, sensitive accident scene recovery co-ordinated with your insurer when needed." },
   { slug: "/vehicle-transport", title: "Vehicle Transport", image: IMG.vehicleTowingService, desc: "Safe flatbed and towing transport for your car, van or specialist vehicle to any UK destination." },

@@ -22,7 +22,7 @@ function FlatBatteryAssistance() {
         why={[
           { title: "Tested First", desc: "We diagnose the battery issue before taking any action." },
           { title: "Safe Equipment", desc: "Voltage-regulated boosters to protect modern vehicle electronics." },
-          { title: "Fast Response", desc: "Average 30-minute response across Birmingham and West Midlands." },
+          { title: "Fast Response", desc: "We respond quickly across Birmingham and West Midlands — day or night, 24/7." },
         ]}
         faqs={[
           { q: "My battery is flat — will you come to me in Birmingham?", a: "Yes — call +44 7392 429947 and we'll dispatch to your location 24/7." },
