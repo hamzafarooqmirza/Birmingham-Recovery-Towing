@@ -75,14 +75,19 @@ function StarRow() {
 
 function ReviewCard({ review }: { review: (typeof reviews)[number] }) {
   return (
-    <div className="w-72 flex-shrink-0 rounded-3xl border border-border bg-card/60 p-6 backdrop-blur-xl">
+    <a
+      href="https://maps.app.goo.gl/MDLU6T1BtEgiLj8Q8"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-72 flex-shrink-0 rounded-3xl border border-border bg-card/60 p-6 backdrop-blur-xl hover:border-primary/50 transition block"
+    >
       <StarRow />
       <p className="mt-4 text-sm leading-relaxed text-muted-foreground">"{review.text}"</p>
       <div className="mt-5 text-sm font-semibold">
         {review.name}
         <span className="font-normal text-muted-foreground"> · {review.time}</span>
       </div>
-    </div>
+    </a>
   );
 }
 
